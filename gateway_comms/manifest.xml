@@ -1,0 +1,15 @@
+<package>
+  <description brief="gateway_comms">
+
+     gateway_comms
+
+  </description>
+  <author>Jihoon</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/gateway_comms</url>
+  <depend package="std_msgs"/>
+
+</package>
+
+
