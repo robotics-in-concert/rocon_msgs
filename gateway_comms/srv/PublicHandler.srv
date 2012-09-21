@@ -2,4 +2,5 @@ string command
 string[] list
 ---
 bool success
-RemoteList[] list
+RemoteList[] remotelist
+string[] concertmaster_list
