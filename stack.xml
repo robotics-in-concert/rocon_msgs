@@ -1,0 +1,16 @@
+<stack>
+  <description brief="Communication types for rocon">
+  Communication types (msgs/srvs/actions) for robotics in concert (aka multimaster).
+  </description>
+  <author>Daniel Stonier</author>
+  <author>Lee JiHoon</author>
+  <license>BSD</license>  
+  <review status="experimental" notes=""/>
+  <url>http://ros.org/wiki/rocon_comms</url>
+  <!-- 
+    I need to unwind the zeroconf_comms into its own unary stack.
+  -->
+  <depend stack="zeroconf_implementations" /> <!-- zeroconf_comms -->
+  <depend stack="std_msgs" /> 
+ 
+</stack>
