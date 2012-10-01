@@ -1,2 +1,5 @@
 ---
-string gateway_name
+string name
+Interface public_interface
+
+# More - whitelists, patterns, currently flipped topics etc
