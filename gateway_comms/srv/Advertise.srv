@@ -1,0 +1,11 @@
+# if cancel is set, removes the list from the public interface
+bool cancel
+# list of connections to add/cancel to watchlist
+Connection[] watchlist
+
+---
+
+# updated watchlist after this interaction
+Connection[] watchlist
+# Public interface currently available based on watchlist
+Interface public_interface
