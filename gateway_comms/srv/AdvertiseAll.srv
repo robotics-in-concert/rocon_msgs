@@ -1,0 +1,10 @@
+# if cancel is set, stops advertising all connections
+bool cancel
+# list of connections to exclude apart from default blacklists
+Connection[] blacklist
+
+---
+
+# The overall blacklist used (default + supplied)
+bool success
+Connection[] blacklist
