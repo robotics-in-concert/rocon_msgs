@@ -3,4 +3,3 @@ string[] list
 ---
 bool success
 RemoteList[] remotelist
-string[] concertmaster_list
