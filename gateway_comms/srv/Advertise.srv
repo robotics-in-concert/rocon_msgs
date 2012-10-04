@@ -7,5 +7,3 @@ Connection[] watchlist
 
 # updated watchlist after this interaction
 Connection[] watchlist
-# Public interface currently available based on watchlist
-Interface public_interface
