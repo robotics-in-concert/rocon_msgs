@@ -6,5 +6,5 @@ Connection[] blacklist
 ---
 
 # The overall blacklist used (default + supplied)
+bool success
 Connection[] blacklist
-# 

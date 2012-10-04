@@ -6,4 +6,5 @@ Connection[] watchlist
 ---
 
 # updated watchlist after this interaction
+bool success
 Connection[] watchlist
