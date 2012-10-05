@@ -14,6 +14,9 @@ string type
 # this is the topic/service name or the action base name
 string name 
 
+# not really required by foreign gateways, but the information is useful locally
+string node
+
 # node_uri for communication
 string uri
 
