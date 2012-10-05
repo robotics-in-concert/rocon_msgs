@@ -1,0 +1,30 @@
+# Service to flip a single connection to a remote gateway
+#
+# Todo - we might expand this to incorporate
+#
+# a) flip multiple connections to a remote gateway
+# b) flip multiple connections to multiple remote gateways
+#
+# I suspect that will just complicate the service too much though.
+# Since it's not high volume traffic, sending a few services instead
+# of just one isn't a massive disadvantage.
+#
+
+# The remote gateway to flip to
+string gateway
+# Connection type - use string constants defined in Connection.msg
+string type
+# The fully qualified local connection name 
+string name
+# Optional fully qualified node name (to further refine the selection)
+# This is necessary, for instance, if you have multiple subscribers
+# publishing to a single topic.
+string node_name
+
+# if cancel is set, removes the connection from the flipped interface
+bool cancel
+
+---
+
+bool success
+# Todo: return an updated flip watchlist
