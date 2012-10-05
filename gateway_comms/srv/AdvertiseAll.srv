@@ -5,6 +5,6 @@ Connection[] blacklist
 
 ---
 
+uint8 result
 # The overall blacklist used (default + supplied)
-bool success
-Connection[] blacklist
+PublicRule[] blacklist

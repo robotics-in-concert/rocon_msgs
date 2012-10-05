@@ -12,14 +12,3 @@ string SERVICE = "srv"
 string ACTION_CLIENT = "ac"
 string ACTION_SERVER = "as"
 
-# Connection type (from above list)
-string type
-
-# Tuples of information about the connection
-# pub - [topic_name/topic_regex]
-#     - [topic_name/topic_regex, node_name]
-# sub - [topic_name/topic_regex]
-#     - [topic_name/topic_regex, node_name]
-# srv - [service_name]
-# ac/as - current undefined (in progress)
-string[] list

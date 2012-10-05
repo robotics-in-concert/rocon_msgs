@@ -1,10 +1,10 @@
 # if cancel is set, removes the list from the public interface
 bool cancel
 # list of connections to add/cancel to watchlist
-Connection[] watchlist
+PublicRule[] watchlist
 
 ---
 
+uint8 result
 # updated watchlist after this interaction
-bool success
-Connection[] watchlist
+PublicRule[] watchlist
