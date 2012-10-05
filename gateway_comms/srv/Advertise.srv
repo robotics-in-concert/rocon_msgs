@@ -9,3 +9,5 @@ string error_message
 
 # updated watchlist after this interaction
 PublicRule[] watchlist
+# The current interface
+Connecetion[] public_interface
