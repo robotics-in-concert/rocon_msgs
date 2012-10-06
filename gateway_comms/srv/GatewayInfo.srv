@@ -1,5 +1,15 @@
 ---
-string name
-Interface public_interface
+###### Gateway information ######
 
-# More - whitelists, patterns, currently flipped topics etc
+string name
+bool connected
+string hub_name
+
+###### Public Interface ######
+
+###### Flipped Interface ######
+
+FlipRule[] flipped_connections
+FlipRule[] flip_rules
+FlipPattern[] flip_patterns
+

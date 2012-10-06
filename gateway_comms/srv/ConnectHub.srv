@@ -1,0 +1,7 @@
+# Use to make connections to the hub.
+
+string uri
+---
+int8 result
+string error_message
+
