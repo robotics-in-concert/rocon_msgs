@@ -4,7 +4,7 @@
 # 2) a rule that is put on a watchlist
 
 # The target recipient of the flip
-string target_gateway
+string gateway
 
 # If specified, the connection name will be remapped to this name
 # in the remote gateway's workspace. If unspecified it will simply
