@@ -1,21 +1,27 @@
 # Standard gateway connection message
 
 # A connection can be 1 of 5 types
-string PUBLISHER = "publisher"
-string SUBSCRIBER = "subscriber"
-string SERVICE = "service"
-string ACTION_CLIENT = "action_client"
-string ACTION_SERVER = "action_server"
-string INVALID = "invalid"
+string PUBLISHER = publisher
+string SUBSCRIBER = subscriber
+string SERVICE = service
+string ACTION_CLIENT = action_client
+string ACTION_SERVER = action_server
+string INVALID = invalid
 
-# Connection type (from above list)
+# type of connection (from above)
 string type
 
-# Tuples of information about the connection
-# publisher  - [topic_name/topic_regex]
-#            - [topic_name/topic_regex, node_name]
-# subscriber - [topic_name/topic_regex]
-#            - [topic_name/topic_regex, node_name]
-# service    - [service_name]
-# action_client/action_server - undefined (in progress)
-string[] list
+# this is the topic/service name or the action base name
+string name 
+
+# not really required by foreign gateways, but the information is useful locally
+string node
+
+# node_uri for communication
+string uri
+
+# service_api (required for services)
+string service_api
+
+# action/topic type (required for topics). this is the base type of the action
+string topic_type
