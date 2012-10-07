@@ -1,6 +1,6 @@
 # if cancel is set, removes the list from the public interface
 bool cancel
-PublicRule rule
+PublicRule[] rule
 
 ---
 
