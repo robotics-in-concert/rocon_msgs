@@ -1,13 +1,13 @@
 # if cancel is set, removes the list from the public interface
 bool cancel
-PublicRule rule
+PublicRule[] rules
 
 ---
 
+# From result.msg
 int8 result
-string error_message
 
 # updated watchlist after this interaction
 PublicRule[] watchlist
 # The current interface
-Connection[] public_interface
+PublicRule[] public_interface

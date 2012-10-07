@@ -5,8 +5,11 @@ PublicRule[] blacklist
 
 ---
 
+# From result.msg
 int8 result
+
 # The overall blacklist used (default + supplied)
 PublicRule[] blacklist
+
 # The current public interface
-Connection[] public_interface
+PublicRule[] public_interface
