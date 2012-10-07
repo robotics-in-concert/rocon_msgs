@@ -7,4 +7,6 @@
 #
 
 ---
-PublicInterface[] public_interfaces
+
+# (PK) commenting out, PublicInterface message does not exist
+#PublicInterface[] public_interfaces
