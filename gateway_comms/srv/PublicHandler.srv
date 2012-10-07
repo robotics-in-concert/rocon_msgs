@@ -1,5 +1,0 @@
-string command
-string[] list
----
-bool success
-RemoteList[] remotelist
