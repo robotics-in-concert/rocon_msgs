@@ -10,4 +10,4 @@ int8 result
 # updated watchlist after this interaction
 PublicRule[] watchlist
 # The current interface
-Connection[] public_interface
+PublicRule[] public_interface

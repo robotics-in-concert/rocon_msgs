@@ -12,4 +12,4 @@ int8 result
 PublicRule[] blacklist
 
 # The current public interface
-Connection[] public_interface
+PublicRule[] public_interface
