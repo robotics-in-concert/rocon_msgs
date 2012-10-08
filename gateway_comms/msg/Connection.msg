@@ -17,6 +17,9 @@ string name
 # not really required by foreign gateways, but the information is useful locally
 string node
 
+# [DJS] Would like to move these out of here, they are internal variables only, i.e.
+# a user never needs to see them.
+
 # node_uri for communication
 string uri
 
