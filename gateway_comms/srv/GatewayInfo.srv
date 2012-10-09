@@ -7,7 +7,7 @@ string hub_name
 
 ###### Public Interface ######
 
-PublicRule[] watchlist
+PublicRule[] public_watchlist
 PublicRule[] public_interface
 
 ###### Flipped Interface ######
