@@ -6,13 +6,6 @@
 # The target recipient of the flip
 string gateway
 
-# If specified, the connection name will be remapped to this name
-# in the remote gateway's workspace. If unspecified it will simply
-# flip with the original name, but namespaced under the unique gateway name. 
-# e.g. gateway1:/chatter -> gateway2:/gateway1/chatter. This is to help
-# avoid conflicts.
-string remapped_name
-
 # Connection has the following parameters that need setting
 # - name : fully qualified name of the connection (str)
 # - type : connection type (str)
