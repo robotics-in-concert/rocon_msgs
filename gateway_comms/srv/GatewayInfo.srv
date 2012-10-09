@@ -7,6 +7,9 @@ string hub_name
 
 ###### Public Interface ######
 
+PublicRule[] watchlist
+PublicRule[] public_interface
+
 ###### Flipped Interface ######
 
 FlipRule[] flipped_connections
