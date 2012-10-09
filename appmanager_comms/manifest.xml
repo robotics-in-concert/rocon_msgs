@@ -1,0 +1,14 @@
+<package>
+  <description brief="appmanager_comms">
+
+     appmanager_comms
+
+  </description>
+  <author>Jihoon</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/appmanager_comms</url>
+
+</package>
+
+

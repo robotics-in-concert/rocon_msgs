@@ -1,0 +1,2 @@
+string display
+string status
