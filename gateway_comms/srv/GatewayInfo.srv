@@ -12,7 +12,6 @@ PublicRule[] public_interface
 
 ###### Flipped Interface ######
 
+FlipRule[] flip_watchlist
 FlipRule[] flipped_connections
-FlipRule[] flip_rules
-FlipPattern[] flip_patterns
 
