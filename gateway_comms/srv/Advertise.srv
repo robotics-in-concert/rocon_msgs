@@ -1,10 +1,9 @@
 # if cancel is set, removes the list from the public interface
 bool cancel
-Rule[] public_rules
+Rule[] rules
 
 ---
 
 # From result.msg
 int8 result
 Rule[] watchlist
-Rule[] public_interface

@@ -7,4 +7,3 @@ Rule[] blacklist
 # From result.msg
 int8 result
 Rule[] blacklist
-Rule[] public_interface
