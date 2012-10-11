@@ -1,15 +1,10 @@
 # if cancel is set, stops advertising all connections
 bool cancel
-# list of connections to exclude apart from default blacklists
-PublicRule[] blacklist
+Rule[] blacklist
 
 ---
 
 # From result.msg
 int8 result
-
-# The overall blacklist used (default + supplied)
-PublicRule[] blacklist
-
-# The current public interface
-PublicRule[] public_interface
+Rule[] blacklist
+Rule[] public_interface

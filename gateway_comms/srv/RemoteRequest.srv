@@ -10,7 +10,7 @@
 # of just one isn't a massive disadvantage.
 #
 
-FlipRule rule
+RemoteRule rule
 
 # if true, attempt to cancel an existing flip rather than creating it
 bool cancel

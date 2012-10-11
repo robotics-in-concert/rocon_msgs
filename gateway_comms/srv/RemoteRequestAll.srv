@@ -4,7 +4,7 @@
 string gateway
 
 # list of connections to exclude, this will be added to the default blacklist
-Connection[] blacklist
+Rule[] blacklist
 
 # if cancel is set, stops flipping all connections
 bool cancel

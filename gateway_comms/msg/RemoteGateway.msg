@@ -4,16 +4,16 @@ string name
 
 ###### Public Interface ######
 
-PublicRule[] public_interface
+Rule[] public_interface
 
 ###### Flipped Interface ######
 
-FlipRule[] flipped_connections
-FlipRule[] flip_watchlist
+RemoteRule[] flipped_connections
+RemoteRule[] flip_watchlist
 
 ###### Foreign Interface ######
 
 # Should we show these?
 
-# FlipRule[] flipped_in_connections
-# Momo[] pulled_connections
+# RemoteRule[] flipped_in_connections
+# RemoteRule[] pulled_connections
