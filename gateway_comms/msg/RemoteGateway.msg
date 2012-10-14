@@ -14,8 +14,8 @@ Rule[] public_interface
 ###### Flipped Interface ######
 
 # Awaiting implementation - need to post details on the hub
-# RemoteRule[] flipped_interface
-# RemoteRule[] flipped_watchlist
+RemoteRule[] flipped_interface
+RemoteRule[] flipped_watchlist
 
 ###### Foreign Interface ######
 
