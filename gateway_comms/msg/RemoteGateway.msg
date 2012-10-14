@@ -4,7 +4,7 @@ string name
 
 ###### Public Interface ######
 
-PublicRule[] public_interface
+Rule[] public_interface
 
 # Should we show flipped and foreign interfaces? 
 # Would be very useful for debugging, but means we need to splash 
@@ -13,10 +13,12 @@ PublicRule[] public_interface
 
 ###### Flipped Interface ######
 
-#FlipRule[] flipped_connections
-#FlipRule[] flip_watchlist
+# RemoteRule[] flipped_connections
+# RemoteRule[] flip_watchlist
 
 ###### Foreign Interface ######
 
-# FlipRule[] flipped_in_connections
-# Momo[] pulled_connections
+# Should we show these?
+
+# RemoteRule[] flipped_in_connections
+# RemoteRule[] pulled_connections
