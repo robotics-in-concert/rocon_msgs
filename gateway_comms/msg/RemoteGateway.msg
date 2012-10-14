@@ -6,10 +6,15 @@ string name
 
 Rule[] public_interface
 
+# Should we show flipped and foreign interfaces? 
+# Would be very useful for debugging, but means we need to splash 
+# the redis server with alot more information.
+#    https://github.com/robotics-in-concert/rocon_multimaster/issues/84
+
 ###### Flipped Interface ######
 
-RemoteRule[] flipped_connections
-RemoteRule[] flip_watchlist
+# RemoteRule[] flipped_connections
+# RemoteRule[] flip_watchlist
 
 ###### Foreign Interface ######
 
