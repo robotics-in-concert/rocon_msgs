@@ -4,6 +4,7 @@
 string name
 bool connected
 string hub_name
+bool firewall
 
 ###### Public Interface ######
 
