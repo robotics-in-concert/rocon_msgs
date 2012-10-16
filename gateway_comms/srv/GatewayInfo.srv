@@ -15,8 +15,10 @@ Rule[] public_interface
 
 RemoteRule[] flipped_connections
 RemoteRule[] flip_watchlist
-
-###### Foreign Interface ######
-
 RemoteRule[] flipped_in_connections
-# RemoteRule[] pulled_connections
+
+###### Pulled Interface ######
+
+RemoteRule[] pull_watchlist
+RemoteRule[] pulled_connections
+
