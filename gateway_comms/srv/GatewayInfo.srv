@@ -13,8 +13,8 @@ Rule[] public_interface
 
 ###### Flipped Interface ######
 
-Rule[] flipped_connections
-Rule[] flip_watchlist
+RemoteRule[] flipped_connections
+RemoteRule[] flip_watchlist
 
 ###### Foreign Interface ######
 
