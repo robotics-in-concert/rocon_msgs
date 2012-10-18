@@ -18,7 +18,7 @@ bool cancel
 ---
 
 # Return a verbose error string to help with debugging if success fails.
-# Strings defined in GatewayError.msg
+# Strings defined in gateway_comms.msg.Result
 int8 result
 string error_message
 
