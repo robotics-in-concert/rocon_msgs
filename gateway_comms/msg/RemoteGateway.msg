@@ -20,7 +20,9 @@ RemoteRule[] flipped_watchlist
 
 ###### Foreign Interface ######
 
-# Should we show these?
+# Q) Should we show these?
+# A) Probably not, in the overall scheme of things, 
+#    it doubles up the information from above
 
 # RemoteRule[] flipped_in_connections
 # RemoteRule[] pulled_connections
