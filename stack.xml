@@ -7,10 +7,8 @@
   <license>BSD</license>  
   <review status="experimental" notes=""/>
   <url>http://ros.org/wiki/rocon_comms</url>
-  <!-- 
-    I need to unwind the zeroconf_comms into its own unary stack.
-  -->
-  <depend stack="zeroconf_implementations" /> <!-- zeroconf_comms -->
+  <depend stack="ros" /> 
   <depend stack="std_msgs" /> 
+  <depend stack="zeroconf_comms" /> 
  
 </stack>
