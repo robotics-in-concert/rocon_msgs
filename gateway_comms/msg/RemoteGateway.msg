@@ -7,16 +7,14 @@ bool firewall
 
 Rule[] public_interface
 
-# Should we show flipped and foreign interfaces? 
-# Would be very useful for debugging, but means we need to splash 
-# the redis server with alot more information.
-#    https://github.com/robotics-in-concert/rocon_multimaster/issues/84
 
 ###### Flipped Interface ######
 
-# Awaiting implementation - need to post details on the hub
+# Flipped and pulled interfaces would be useful for debugging 
+#    https://github.com/robotics-in-concert/rocon_multimaster/issues/84
+
 RemoteRule[] flipped_interface
-RemoteRule[] flipped_watchlist
+RemoteRule[] pulled_interface
 
 ###### Foreign Interface ######
 
