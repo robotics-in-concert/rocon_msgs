@@ -8,6 +8,7 @@
   <review status="experimental" notes=""/>
   <url>http://ros.org/wiki/rocon_comms</url>
   <depend stack="ros" /> 
+  <depend stack="ros_comm" /> 
   <depend stack="std_msgs" /> 
   <depend stack="zeroconf_comms" /> 
  
