@@ -1,16 +1,10 @@
-# Service to flip a single connection to a remote gateway
-#
-# Todo - we might expand this to incorporate
-#
-# a) flip multiple connections to a remote gateway
-# b) flip multiple connections to multiple remote gateways
-#
-# I suspect that will just complicate the service too much though.
-# Since it's not high volume traffic, sending a few services instead
-# of just one isn't a massive disadvantage.
-#
+# Rules list specifying interactions with a remote gateway.
+# Depending on the service, this gets used for either flips or pulls.
 
-RemoteRule remote
+# The target recipient of the flip/pull
+string gateway
+# List of flip/pull rules
+Rule[] rules
 
 # if true, attempt to cancel an existing flip rather than creating it
 bool cancel
@@ -22,5 +16,3 @@ bool cancel
 int8 result
 string error_message
 
-# We may not need to burden it with this.
-# FlipRule[] current_flip_rules
