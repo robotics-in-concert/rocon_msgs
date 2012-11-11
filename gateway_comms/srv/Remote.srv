@@ -1,10 +1,8 @@
 # Rules list specifying interactions with a remote gateway.
 # Depending on the service, this gets used for either flips or pulls.
 
-# The target recipient of the flip/pull
-string gateway
 # List of flip/pull rules
-Rule[] rules
+RemoteRule[] remotes
 
 # if true, attempt to cancel an existing flip rather than creating it
 bool cancel
