@@ -1,6 +1,6 @@
 # Provides information and status of a concert client.
 
-zeroconf_comms/DiscoveredService zeroconf
+zeroconf_msgs/DiscoveredService zeroconf
 # The platform id triple
 string platform
 string system
