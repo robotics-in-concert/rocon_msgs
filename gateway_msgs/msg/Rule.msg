@@ -1,6 +1,6 @@
 # Standard gateway connection rule
 
-# type of connection (from gateway_comms.msg.Connection)
+# type of connection (from gateway_msgs.msg.Connection)
 string type
 
 # this is the topic/service name or the action base name (a regex is supported)

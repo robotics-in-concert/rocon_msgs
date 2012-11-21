@@ -1,13 +1,13 @@
 <package>
-  <description brief="gateway_comms">
+  <description brief="gateway_msgs">
 
-     gateway_comms
+     gateway_msgs
 
   </description>
   <author>Jihoon</author>
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/gateway_comms</url>
+  <url>http://ros.org/wiki/gateway_msgs</url>
   <depend package="std_msgs"/>
 
 </package>
