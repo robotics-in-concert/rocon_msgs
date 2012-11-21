@@ -10,6 +10,6 @@
   <depend stack="ros" /> 
   <depend stack="ros_comm" /> 
   <depend stack="std_msgs" /> 
-  <depend stack="zeroconf_comms" /> 
+  <depend stack="zeroconf_msgs" /> 
  
 </stack>

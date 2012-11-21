@@ -9,7 +9,7 @@
   <review status="experimental" notes=""/>
   <url>http://ros.org/wiki/rocon_concert_framework</url>
   
-  <depend package="zeroconf_comms"/>
+  <depend package="zeroconf_msgs"/>
 
 </package>
 
