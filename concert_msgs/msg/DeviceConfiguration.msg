@@ -2,6 +2,6 @@
 # configuration (depends on the app that is being
 # called to run on the robot).
 
-concert_comms/Device device
+concert_msgs/Device device
 string app
 

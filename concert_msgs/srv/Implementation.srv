@@ -2,6 +2,6 @@
 # A list of 'named' nodes, e.g. linux.ros.robosem.rocon_teleop
 
 string name
-#concert_comms/DeviceConfiguration[] nodes
+#concert_msgs/DeviceConfiguration[] nodes
 string[] nodes
 string link_graph
