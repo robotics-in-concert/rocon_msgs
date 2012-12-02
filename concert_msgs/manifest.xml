@@ -10,6 +10,7 @@
   <url>http://ros.org/wiki/rocon_concert_framework</url>
   
   <depend package="zeroconf_msgs"/>
+  <depend package="appmanager_msgs"/>
 
 </package>
 
