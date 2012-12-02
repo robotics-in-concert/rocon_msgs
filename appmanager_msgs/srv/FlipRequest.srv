@@ -1,0 +1,4 @@
+string remotename
+bool ok_flag
+---
+bool result
