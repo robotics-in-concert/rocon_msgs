@@ -11,6 +11,7 @@
   
   <depend package="zeroconf_msgs"/>
   <depend package="appmanager_msgs"/>
+  <depend package="std_msgs"/>
 
 </package>
 
