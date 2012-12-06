@@ -1,9 +1,15 @@
 ---
 ###### Gateway information ######
 
+# Gateway parameters
 string name
 bool connected
+string ip
+
+# Hub parameters
 string hub_name
+string hub_uri
+
 bool firewall
 
 ###### Public Interface ######

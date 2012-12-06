@@ -1,5 +1,6 @@
 ###### Gateway information ######
 string name
+string ip
 #TODO blocking status,health
 bool firewall
 
