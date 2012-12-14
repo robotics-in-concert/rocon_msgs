@@ -1,4 +1,4 @@
-string name
-string platform_info
-string status
-appmanager_msgs/AppDescription[] apps
+# 
+# List of ConcertClient's.
+#
+concert_msgs/ConcertClient[] clients
