@@ -1,12 +1,4 @@
 # 
-# Describes a concert client
+# List of ConcertClient's.
 #
-# Unique name (comes from the gateway systems
-string name
-# The platform id triple
-string platform
-string system
-string robot
-
-string status
-time last_connection_timestamp
+concert_msgs/ConcertClient[] clients
