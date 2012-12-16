@@ -10,3 +10,5 @@ string robot
 
 string status
 time last_connection_timestamp
+
+appmanager_msgs/AppDescription[] apps
