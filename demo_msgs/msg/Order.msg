@@ -1,2 +1,2 @@
 string beverage
-int16 taskid
+string location
