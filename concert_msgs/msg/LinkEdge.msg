@@ -3,3 +3,5 @@
 
 string start
 string finish
+string remap_from
+string remap_to
