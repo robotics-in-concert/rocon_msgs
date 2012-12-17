@@ -1,5 +1,6 @@
 # Name of the app to launch
 string name
+Remapping[] remappings
 ---
 # true ifapp started, false otherwise
 bool started
