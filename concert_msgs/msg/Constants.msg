@@ -13,6 +13,7 @@ string SYSTEM_OPROS=opros
 
 # Valid robot types, though this is totally not
 # official, and we aren't relying on it.
+string ROBOT_ANY=*
 string ROBOT_PC=pc
 string ROBOT_ROBOSEM=robosem
 string ROBOT_KOBUKI=kobuki
