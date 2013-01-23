@@ -6,6 +6,8 @@
     Communication types (msgs/srvs/actions) for robotics in concert (aka multimaster).    
   </description>
   <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+  <maintainer email="jihoonl@rnd.yujinrobot.com">Jihoon Lee</maintainer>
+  <maintainer email="piyushk@gmail.com">Piyush Khandelwal</maintainer>
   <license>BSD</license>
   <url type="website">http://www.ros.org/wiki/rocon_msgs</url>
   <url type="repository">https://github.com/robotics-in-concert/rocon_msgs</url>
