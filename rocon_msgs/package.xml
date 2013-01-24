@@ -16,7 +16,7 @@
   <author email="jihoonl@rnd.yujinrobot.com">Jihoon Lee</author>
   <author email="piyushk@gmail.com">Piyush Khandelwal</author>
 
-  <run_depend>appmanager_msgs</run_depend>
+  <run_depend>rocon_app_manager_msgs</run_depend>
   <run_depend>concert_msgs</run_depend>
   <run_depend>demo_msgs</run_depend>
   <run_depend>gateway_msgs</run_depend>

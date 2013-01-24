@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
     genmsg 
     std_msgs 
     zeroconf_msgs 
-    appmanager_msgs
+    rocon_app_manager_msgs
 )
 
 ##############################################################################
@@ -50,7 +50,7 @@ add_service_files(
 generate_messages(DEPENDENCIES
     std_msgs 
     zeroconf_msgs 
-    appmanager_msgs
+    rocon_app_manager_msgs
 )
 
 ##############################################################################

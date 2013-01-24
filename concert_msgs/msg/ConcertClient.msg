@@ -19,4 +19,4 @@ string status
 # Statistics
 time last_connection_timestamp
 
-appmanager_msgs/AppDescription[] apps
+rocon_app_manager_msgs/AppDescription[] apps

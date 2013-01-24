@@ -1,5 +1,5 @@
 <package>
-  <name>appmanager_msgs</name>
+  <name>rocon_app_manager_msgs</name>
   <version>0.2.0</version>
   <description>
     Messages used by the platform app manager.    
@@ -8,7 +8,7 @@
   <maintainer email="jihoonl@rnd.yujinrobot.com">Jihoon Lee</maintainer>
   <license>BSD</license>  
 
-  <url type="website">http://www.ros.org/wiki/appmanager_msgs</url>
+  <url type="website">http://www.ros.org/wiki/rocon_app_manager_msgs</url>
   <url type="repository">https://github.com/robotics-in-concert/rocon_msgs</url>
   <url type="bugtracker">https://github.com/robotics-in-concert/rocon_msgs/issues</url>
   <author email="d.stonier@gmail.com">Daniel Stonier</author>
