@@ -37,7 +37,7 @@ add_service_files(
   GatewayInfo.srv
   Remote.srv
   RemoteAll.srv
-  RemoteGateway.srv
+  RemoteGatewayInfo.srv
 )
 
 generate_messages(DEPENDENCIES

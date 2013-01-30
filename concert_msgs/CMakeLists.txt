@@ -32,14 +32,12 @@ add_message_files(
   LinkEdge.msg
   LinkGraph.msg
   LinkNode.msg
-  PlatformInfo.msg
 )
 
 add_service_files(
   DIRECTORY srv
   FILES
   ClientList.srv
-  GetPlatformInfo.srv
   Invitation.srv
   Invite.srv
   StartSolution.srv

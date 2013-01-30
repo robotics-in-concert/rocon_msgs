@@ -20,6 +20,7 @@ add_message_files(
   FILES
   AppDescription.msg
   Remapping.msg
+  PlatformInfo.msg
 )
 
 add_service_files(
@@ -29,6 +30,7 @@ add_service_files(
   FlipRequest.srv
   Init.srv
   StartApp.srv
+  GetPlatformInfo.srv
   StopApp.srv
 )
 
