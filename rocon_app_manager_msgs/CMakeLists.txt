@@ -27,7 +27,7 @@ add_service_files(
   DIRECTORY srv
   FILES
   GetAppList.srv
-  FlipRequest.srv
+  RemoteControl.srv
   Init.srv
   StartApp.srv
   GetPlatformInfo.srv
