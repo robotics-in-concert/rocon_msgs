@@ -3,8 +3,8 @@
 ######################### Status Modes ##########################
 
 string CONCERT_CLIENT_STATUS_AVAILABLE=available
-string CONCERT_CLIENT_STATUS_CONCERT=concert_mode
-string CONCERT_CLIENT_STATUS_PAIRED=paired_mode
+string CONCERT_CLIENT_STATUS_UNVAILABLE=unavailable
+string CONCERT_CLIENT_STATUS_CONNECTED=connected
 
 string APP_STATUS_STOPPED=stopped
 string APP_STATUS_RUNNING=running
