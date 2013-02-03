@@ -1,0 +1,7 @@
+# Process an invitation to send (or cancel) the app manager control handles 
+# (/start_app etc) to a remote target. That target is usually a gateway name.
+
+string remote_target_name
+bool cancel
+---
+bool result
