@@ -5,7 +5,7 @@
     Shared communication types for the concert framework.
   </description>
   <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
-  <maintainer email="jihoonl@rnd.yujinrobot.com">Jihoon Lee</maintainer>
+  <maintainer email="jihoonlee.in@gmail.com">Jihoon Lee</maintainer>
   <license>BSD</license>  
 
   <url type="website">http://www.ros.org/wiki/concert_msgs</url>

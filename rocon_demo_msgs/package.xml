@@ -5,7 +5,7 @@
     Concert demo msg types (not very standard).
   </description>
   <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
-  <maintainer email="jihoonl@rnd.yujinrobot.com">Jihoon Lee</maintainer>
+  <maintainer email="jihoonlee.in@gmail.com">Jihoon Lee</maintainer>
   <license>BSD</license>  
 
   <url type="website">http://www.ros.org/wiki/rocon_demo_msgs</url>

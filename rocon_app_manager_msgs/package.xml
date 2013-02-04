@@ -5,7 +5,7 @@
     Messages used by the platform app manager.    
   </description>
   <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
-  <maintainer email="jihoonl@rnd.yujinrobot.com">Jihoon Lee</maintainer>
+  <maintainer email="jihoonlee.in@gmail.com">Jihoon Lee</maintainer>
   <license>BSD</license>  
 
   <url type="website">http://www.ros.org/wiki/rocon_app_manager_msgs</url>
