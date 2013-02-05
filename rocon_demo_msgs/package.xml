@@ -1,6 +1,6 @@
 <package>
   <name>rocon_demo_msgs</name>
-  <version>0.2.1</version>
+  <version>0.3.0</version>
   <description>
     Concert demo msg types (not very standard).
   </description>
