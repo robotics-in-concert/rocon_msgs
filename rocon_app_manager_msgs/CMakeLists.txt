@@ -19,6 +19,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   AppDescription.msg
+  Constants.msg
   Remapping.msg
   PlatformInfo.msg
 )
@@ -27,10 +28,11 @@ add_service_files(
   DIRECTORY srv
   FILES
   GetAppList.srv
-  RemoteControl.srv
-  Init.srv
-  StartApp.srv
   GetPlatformInfo.srv
+  Init.srv
+  Invite.srv
+  StartApp.srv
+  Status.srv
   StopApp.srv
 )
 

@@ -38,10 +38,8 @@ add_service_files(
   DIRECTORY srv
   FILES
   ClientList.srv
-  Invitation.srv
   Invite.srv
   StartSolution.srv
-  Status.srv
   StopSolution.srv
 )
 
