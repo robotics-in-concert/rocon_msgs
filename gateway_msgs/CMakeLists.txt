@@ -48,4 +48,4 @@ generate_messages(DEPENDENCIES
 # Package
 ##############################################################################
 
-catkin_package()
+catkin_package(CATKIN_DEPENDS message_runtime std_msgs)
