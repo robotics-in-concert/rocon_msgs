@@ -1,4 +1,3 @@
----
 ###### Gateway information ######
 
 # Gateway parameters
