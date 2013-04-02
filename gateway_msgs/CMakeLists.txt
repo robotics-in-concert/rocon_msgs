@@ -24,6 +24,7 @@ add_message_files(
   ConnectionType.msg
   RemoteGateway.msg
   RemoteRule.msg
+  GatewayInfo.msg
   Result.msg
   Rule.msg
 )
@@ -34,7 +35,6 @@ add_service_files(
   Advertise.srv
   AdvertiseAll.srv
   ConnectHub.srv
-  GatewayInfo.srv
   Remote.srv
   RemoteAll.srv
   RemoteGatewayInfo.srv
