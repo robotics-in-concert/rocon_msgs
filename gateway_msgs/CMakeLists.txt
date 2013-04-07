@@ -22,6 +22,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   ConnectionType.msg
+  GatewayInfo.msg
   RemoteGateway.msg
   RemoteRule.msg
   Result.msg
@@ -34,7 +35,6 @@ add_service_files(
   Advertise.srv
   AdvertiseAll.srv
   ConnectHub.srv
-  GatewayInfo.srv
   Remote.srv
   RemoteAll.srv
   RemoteGatewayInfo.srv
