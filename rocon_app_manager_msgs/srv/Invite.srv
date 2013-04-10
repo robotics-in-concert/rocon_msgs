@@ -2,6 +2,7 @@
 # (/start_app etc) to a remote target. That target is usually a gateway name.
 
 string remote_target_name
+string client_local_name
 bool cancel
 ---
 bool result
