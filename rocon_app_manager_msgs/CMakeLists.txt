@@ -20,6 +20,7 @@ add_message_files(
   FILES
   AppDescription.msg
   Constants.msg
+  ErrorCodes.msg
   Remapping.msg
   PlatformInfo.msg
 )
