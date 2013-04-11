@@ -4,10 +4,9 @@ Remapping[] remappings
 ---
 # true ifapp started, false otherwise
 bool started
-# if app did not start, error code for classifying start failure.  See
-# StatusCodes.msg for common codes.
+# classifying start success/failure, see ErrorCodes.msg
 int32 error_code
-# response message for debugging
+# human friendly string for debugging (usually upon error)
 string message
 # Namespace where the app interface can be found
 string app_namespace
