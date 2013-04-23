@@ -25,7 +25,7 @@ add_message_files(
   GatewayInfo.msg
   RemoteGateway.msg
   RemoteRule.msg
-  Result.msg
+  ErrorCodes.msg
   Rule.msg
 )
 
