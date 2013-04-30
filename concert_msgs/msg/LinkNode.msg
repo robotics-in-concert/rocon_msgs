@@ -14,3 +14,6 @@ string tuple
 int8 UNLIMITED_RESOURCE=-1
 int8 min
 int8 max
+
+# Force matching of robot name (only really useful for demos)
+bool force_name_matching
