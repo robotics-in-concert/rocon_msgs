@@ -18,6 +18,9 @@ find_package(catkin REQUIRED COMPONENTS genmsg)
 add_message_files(
   DIRECTORY msg
   FILES
+  KeyValue.msg
+  PairingApp.msg
+  Icon.msg
   App.msg
   AppList.msg
   Constants.msg
