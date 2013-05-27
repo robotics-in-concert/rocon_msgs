@@ -1,4 +1,3 @@
----
 ###### Gateway information ######
 
 # Gateway parameters
@@ -7,8 +6,8 @@ bool connected
 string ip
 
 # Hub parameters
-string hub_name
-string hub_uri
+string[] hub_names
+string[] hub_uris
 
 bool firewall
 

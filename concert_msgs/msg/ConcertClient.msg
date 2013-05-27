@@ -1,8 +1,9 @@
 # 
 # Describes a concert client - used only on the concert side
 #
-# Unique name (comes from the gateway systems unique naming system)
+# Unique names - human consumable rocon name as well as global gateway name
 string name
+string gateway_name
 
 # The platform id triple (refer to concert_clients/PlatformInfo.msg for string values)
 string platform
