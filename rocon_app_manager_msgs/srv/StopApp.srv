@@ -1,10 +1,8 @@
-# Name of app to stop.  Sending "*" stops all apps.
-string name
 ---
 # true if app stopped, false otherwise
 bool stopped
-# if app did not stop, error code for classifying stop failure.  See
-# StatusCodes.msg for common codes.
+# classifying start success/failure, see ErrorCodes.msg
 int32 error_code
+# human friendly string for debugging (usually upon error)
 string message
 
