@@ -19,7 +19,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   KeyValue.msg
-  PairingApp.msg
+  PairingClient.msg
   Icon.msg
   App.msg
   AppList.msg
