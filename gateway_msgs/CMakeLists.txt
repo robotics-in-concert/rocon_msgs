@@ -38,6 +38,7 @@ add_service_files(
   Remote.srv
   RemoteAll.srv
   RemoteGatewayInfo.srv
+  SetWatcherPeriod.srv
 )
 
 generate_messages(DEPENDENCIES
