@@ -36,6 +36,7 @@ add_service_files(
   GetPlatformInfo.srv
   Init.srv
   Invite.srv
+  SimpleInvite.srv
   StartApp.srv
   Status.srv
   StopApp.srv
