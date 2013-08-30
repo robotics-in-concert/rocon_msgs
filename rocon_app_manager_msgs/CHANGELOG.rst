@@ -2,8 +2,8 @@
 Changelog for package rocon_app_manager_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.1 (2013-08-30)
+------------------
 * simple invite service for relaying invitations by intelligent lurkers (e.g. pairing master).
 
 0.6.0 (2013-08-07 18:58)
