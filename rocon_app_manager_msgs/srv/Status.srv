@@ -8,5 +8,7 @@ string application_namespace
 string remote_controller
 
 # Current app status, stopped or running
-string app_status
+string application_status
 
+# Current app details (if running), a default App() (filled with empty strings and lists) otherwise
+rocon_app_manager_msgs/App application
