@@ -1,6 +1,6 @@
 <package>
   <name>gateway_msgs</name>
-  <version>0.6.1</version>
+  <version>0.6.2</version>
   <description>
     Messages used by the gateway model.
   </description>
