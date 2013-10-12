@@ -7,6 +7,6 @@ string platform
 string status
 
 # icon for showing the app
-Icon icon
+rocon_std_msgs/Icon icon
 #  ordered list (by preference) of pairing clients to interact with this robot app.
 PairingClient[] pairing_clients
