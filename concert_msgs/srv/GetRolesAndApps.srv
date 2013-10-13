@@ -1,0 +1,16 @@
+# For remocons who need to retrieve a role-applist dictionary to 
+# display to their users the permitted apps.
+
+# Filter the return list according to roles. If not specified
+# it will return app lists for all roles.
+string[] roles
+
+# The platform of the requesting device. This will get
+# the role manager to filter the app list for this platform.
+# If not specified, the role manager will assume *.*.*.*
+rocon_std_msgs/PlatformInfo platform_info
+---
+
+# Return a list of lists (one list for each role). This is the
+# only way to represent a dictionary in ros msgs.
+RoleAppList[] data

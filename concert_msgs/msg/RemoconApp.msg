@@ -8,15 +8,6 @@
 # android this will be an intent action name such as
 # com.github.rosjava.android_apps.listener.Listener.
 string name
-# The platform tuple it will run on 
-# It takes the format of a '.' separated tuple with each part
-# specifying the relevant parts in rocon_std_msgs.PlatformInfo
-# except for the name and icon variables. e.g.
-# 
-#   ubuntu.precise.turtlebot.ros
-#   linux.*.turtlebot.ros
-#   android.jellybean.tablet.rosjava
-string platform_info
 
 ###############################################################
 # Variable specifications modifiable by the solution/service
@@ -32,3 +23,9 @@ string description
 
 # Again, should exist a default, but may want to override it.
 rocon_std_msgs/Icon icon
+
+# Any remappings that need to be applied
+rocon_std_msgs/Remapping[] remappings
+
+# Parameters for the app
+rocon_std_msgs/KeyValue[] parameters

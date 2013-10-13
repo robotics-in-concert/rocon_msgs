@@ -33,12 +33,15 @@ add_message_files(
   LinkGraph.msg
   LinkNode.msg
   RemoconApp.msg
+  RoleAppList.msg
+  Roles.msg
 )
 
 add_service_files(
   DIRECTORY srv
   FILES
   ClientList.srv
+  GetRolesAndApps.srv
   Invite.srv
   StartSolution.srv
   StopSolution.srv
