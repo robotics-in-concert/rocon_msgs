@@ -1,6 +1,6 @@
 # Name of the app to launch
 string name
-Remapping[] remappings
+rocon_std_msgs/Remapping[] remappings
 ---
 # true ifapp started, false otherwise
 bool started
