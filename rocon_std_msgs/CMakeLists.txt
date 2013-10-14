@@ -3,17 +3,15 @@
 ##############################################################################
 
 cmake_minimum_required(VERSION 2.8.3)
-project(concert_msgs)
+project(rocon_std_msgs)
 
 ##############################################################################
 # Dependencies
 ##############################################################################
 
 find_package(catkin REQUIRED COMPONENTS 
-    message_generation 
-    std_msgs
-    rocon_std_msgs
-    rocon_app_manager_msgs
+    genmsg 
+    std_msgs 
 )
 
 ##############################################################################
@@ -23,43 +21,24 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
-  ConcertClient.msg
-  ConcertClientConfiguration.msg
-  ConcertClients.msg
-  Constants.msg
-  Implementation.msg
-  LinkConnection.msg
-  LinkEdge.msg
-  LinkGraph.msg
-  LinkNode.msg
-  RemoconApp.msg
-  RoleAppList.msg
-  Roles.msg
+  Icon.msg
+  KeyValue.msg
+  PlatformInfo.msg
+  Remapping.msg
 )
 
-add_service_files(
-  DIRECTORY srv
-  FILES
-  ClientList.srv
-  GetRolesAndApps.srv
-  Invite.srv
-  StartSolution.srv
-  StopSolution.srv
-)
+#add_service_files(
+#  DIRECTORY srv
+#  FILES
+#  xxx.srv
+#)
 
 generate_messages(DEPENDENCIES
     std_msgs 
-    rocon_std_msgs
-    rocon_app_manager_msgs
 )
 
 ##############################################################################
 # Package
 ##############################################################################
 
-catkin_package(CATKIN_DEPENDS 
-                   message_runtime
-                   std_msgs
-                   rocon_std_msgs
-                   rocon_app_manager_msgs
-               )
+catkin_package(CATKIN_DEPENDS message_runtime std_msgs)
