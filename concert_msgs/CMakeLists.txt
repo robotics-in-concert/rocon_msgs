@@ -36,6 +36,7 @@ add_message_files(
   RoleAppList.msg
   Roles.msg
   RoconService.msg
+  ListRoconService.msg
 )
 
 add_service_files(
