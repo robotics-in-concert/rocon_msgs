@@ -35,6 +35,7 @@ add_message_files(
   RemoconApp.msg
   RoleAppList.msg
   Roles.msg
+  RoconService.msg
 )
 
 add_service_files(
@@ -45,6 +46,8 @@ add_service_files(
   Invite.srv
   StartSolution.srv
   StopSolution.srv
+  AddRoconService.srv
+  AddRoconServiceFromFile.srv
 )
 
 generate_messages(DEPENDENCIES
