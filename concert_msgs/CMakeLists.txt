@@ -35,8 +35,8 @@ add_message_files(
   RemoconApp.msg
   RoleAppList.msg
   Roles.msg
-  RoconService.msg
-  ListRoconService.msg
+  ConcertService.msg
+  ListConcertService.msg
 )
 
 add_service_files(
@@ -47,8 +47,8 @@ add_service_files(
   Invite.srv
   StartSolution.srv
   StopSolution.srv
-  AddRoconService.srv
-  AddRoconServiceFromFile.srv
+  AddConcertService.srv
+  EnableConcertService.srv
 )
 
 generate_messages(DEPENDENCIES
