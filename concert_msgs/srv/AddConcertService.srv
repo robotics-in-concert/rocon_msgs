@@ -1,3 +1,4 @@
 ConcertService service
 ---
 bool success
+string reason
