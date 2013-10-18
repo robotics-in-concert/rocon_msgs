@@ -1,3 +1,4 @@
 string concertservice_name
+bool enable
 ---
 bool success

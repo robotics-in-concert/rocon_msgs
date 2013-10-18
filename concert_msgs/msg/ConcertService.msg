@@ -1,8 +1,9 @@
-string name
-string description
-string author
-int16  status
-bool   enabled
+string                      name
+string                      description
+string                      author
+int16                       status
+bool                        enabled
+concert_msgs/LinkGraph      linkgraph
 
 # Service Status
 int16 UNEXPECTED_ERROR      = -3
