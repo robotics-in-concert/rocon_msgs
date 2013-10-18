@@ -1,0 +1,26 @@
+### Allocate Resources action
+#
+#  Rocon services use this action to request resources managed by the
+#  scheduler.  
+#
+#  If not all of the requested resources are immediately available,
+#  the scheduler will queue the request and provide feedback.  The
+#  rocon service making this request should wait for a result, but may
+#  cancel the request at any time via the actionlib interface.
+
+---
+## request
+
+# some description of the resouces being requested
+
+---
+## result
+
+bool success                    # true if resources allocated
+string message                  # status message
+
+---
+## feedback
+
+time availability_estimate      # estimate when request can be satisfied
+string delay_message            # reason for delay

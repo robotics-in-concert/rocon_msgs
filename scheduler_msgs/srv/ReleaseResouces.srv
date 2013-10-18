@@ -1,0 +1,16 @@
+### Release Resources service
+#
+#  Every rocon service that allocates resources from the scheduler
+#  should provide this ROS service to cleanly release any resources
+#  needing to be reassigned to some other task.
+
+## request
+
+# some description of the resouces to be released
+
+---
+## response
+
+bool success            # true if all requested resources released
+time release_time       # estimated time of release, if not successful
+string message
