@@ -21,6 +21,10 @@ string display_name
 # override it to provide more human friendly information.
 string description
 
+# The service name (unique) that this app will be associated
+# with in the running concert.
+string service_name
+
 # Again, should exist a default, but may want to override it.
 rocon_std_msgs/Icon icon
 
