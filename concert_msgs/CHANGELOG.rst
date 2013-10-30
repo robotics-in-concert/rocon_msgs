@@ -2,6 +2,12 @@
 Changelog for package concert_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.3 (2013-10-30)
+------------------
+* added a service name to uniquely separate same services in a solution.
+* role manager messages, closes `#24 <https://github.com/robotics-in-concert/rocon_msgs/issues/24>`_
+* rocon_std_msgs centralises some app manager messages for sharing.
+
 0.6.2 (2013-09-11)
 ------------------
 
