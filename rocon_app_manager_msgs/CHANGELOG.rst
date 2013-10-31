@@ -2,6 +2,9 @@
 Changelog for package rocon_app_manager_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.4 (2013-10-31)
+------------------
+
 0.6.2 (2013-09-11)
 ------------------
 * report details of currently running app
