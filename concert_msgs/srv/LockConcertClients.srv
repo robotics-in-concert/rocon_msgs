@@ -1,4 +1,4 @@
-ConcertService service
+string[] clients
 ---
 bool success
 string message

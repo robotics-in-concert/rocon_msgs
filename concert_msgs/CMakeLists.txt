@@ -48,7 +48,9 @@ add_service_files(
   StartSolution.srv
   StopSolution.srv
   AddConcertService.srv
+  RemoveConcertService.srv
   EnableConcertService.srv
+  LockConcertClients.srv
 )
 
 generate_messages(DEPENDENCIES
