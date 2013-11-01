@@ -9,36 +9,29 @@ project(scheduler_msgs)
 # Dependencies
 ##############################################################################
 
-set(${PROJECT_NAME}_BUILD_DEPENDENCIES
-    actionlib_msgs 
-    message_generation
-    std_msgs)
-set(${PROJECT_NAME}_EXPORT_DEPENDENCIES ${${PROJECT_NAME}_BUILD_DEPENDENCIES})
+set(${PROJECT_NAME}_MSG_DEPENDENCIES
+    rocon_std_msgs
+    std_msgs
+    uuid_msgs)
 
-find_package(catkin REQUIRED COMPONENTS ${${PROJECT_NAME}_BUILD_DEPENDENCIES})
+find_package(catkin REQUIRED
+  COMPONENTS message_generation ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 
 ##############################################################################
 # Messages
 ##############################################################################
 
-add_action_files(
-  DIRECTORY action
+add_message_files(
+  DIRECTORY msg
   FILES
   AllocateResources.msg
-)
+  ResourceStatus.msg
+  SchedulerFeedback.msg)
 
-add_service_files(
-  DIRECTORY srv
-  FILES
-  ReleaseResources.srv
-)
-
-generate_messages(DEPENDENCIES
-    std_msgs 
-)
+generate_messages(DEPENDENCIES ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 
 ##############################################################################
 # Package
 ##############################################################################
 
-catkin_package(CATKIN_DEPENDS ${${PROJECT_NAME}_EXPORT_DEPENDENCIES})
+catkin_package(CATKIN_DEPENDS ${${PROJECT_NAME}_MSG_DEPENDENCIES})
