@@ -1,10 +1,8 @@
-## Scheduler Feedback
+### Scheduler Feedback
 #
-#  This message is sent to a requester whenever there is a change in
-#  the status of some resource it wants.
-
-Header header                   # time of status update, frame_id is irrelevant
-uuid_msgs/UniqueID requester    # requester identifier
-
-# The status of every resource requested so far.
-ResourceStatus[] requests
+#   This message is sent to a requester whenever the status of some
+#   request it made has changed.
+#
+Header header                   # Time of this status, frame_id irrelevant
+uuid_msgs/UniqueID requester    # Requester identifier
+Request[] requests              # Status of every currently-known request
