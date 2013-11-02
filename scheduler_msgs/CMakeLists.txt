@@ -25,7 +25,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   AllocateResources.msg
-  ResourceStatus.msg
+  Request.msg
   SchedulerFeedback.msg)
 
 generate_messages(DEPENDENCIES ${${PROJECT_NAME}_MSG_DEPENDENCIES})
