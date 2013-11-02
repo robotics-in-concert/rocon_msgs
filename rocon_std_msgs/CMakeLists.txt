@@ -27,11 +27,11 @@ add_message_files(
   Remapping.msg
 )
 
-#add_service_files(
-#  DIRECTORY srv
-#  FILES
-#  xxx.srv
-#)
+add_service_files(
+  DIRECTORY srv
+  FILES
+  GetPlatformInfo.srv
+)
 
 generate_messages(DEPENDENCIES
     std_msgs 
