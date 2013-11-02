@@ -5,4 +5,5 @@
 #
 Header header                   # Time of this status, frame_id irrelevant
 uuid_msgs/UniqueID requester    # Requester identifier
+uint16 priority                 # Requester's priority, possibly adjusted
 Request[] requests              # Status of every currently-known request

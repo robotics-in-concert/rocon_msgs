@@ -12,5 +12,5 @@
 
 Header header                   # Time of request, frame_id is irrelevant
 uuid_msgs/UniqueID requester    # Unique identifier of requester
+uint16 priority                 # Priority of requester's task
 Request[] resources             # Resources desired
-
