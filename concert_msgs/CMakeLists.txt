@@ -26,7 +26,9 @@ add_message_files(
   ConcertClient.msg
   ConcertClientConfiguration.msg
   ConcertClients.msg
+  ConcertInfo.msg
   Constants.msg
+  ErrorCodes.msg
   Implementation.msg
   LinkConnection.msg
   LinkEdge.msg
@@ -43,6 +45,7 @@ add_service_files(
   ClientList.srv
   GetRolesAndApps.srv
   Invite.srv
+  SetRolesAndApps.srv
   StartSolution.srv
   StopSolution.srv
 )
