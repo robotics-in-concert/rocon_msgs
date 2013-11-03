@@ -38,6 +38,7 @@ add_message_files(
   ConcertService.msg
   ListConcertService.msg
   RequestResources.msg
+  ServiceResourcePair.msg
 )
 
 add_service_files(
@@ -51,6 +52,7 @@ add_service_files(
   AddConcertService.srv
   RemoveConcertService.srv
   EnableConcertService.srv
+  ResourceStatus.srv
 )
 
 generate_messages(DEPENDENCIES
