@@ -37,6 +37,7 @@ add_message_files(
   Roles.msg
   ConcertService.msg
   ListConcertService.msg
+  RequestResources.msg
 )
 
 add_service_files(
@@ -50,7 +51,6 @@ add_service_files(
   AddConcertService.srv
   RemoveConcertService.srv
   EnableConcertService.srv
-  LockConcertClients.srv
 )
 
 generate_messages(DEPENDENCIES
