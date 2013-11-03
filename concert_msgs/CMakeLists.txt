@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
     std_msgs
     rocon_std_msgs
     rocon_app_manager_msgs
+    uuid_msgs
 )
 
 ##############################################################################
@@ -26,13 +27,16 @@ add_message_files(
   ConcertClient.msg
   ConcertClientConfiguration.msg
   ConcertClients.msg
+  ConcertInfo.msg
   Constants.msg
+  ErrorCodes.msg
   Implementation.msg
   LinkConnection.msg
   LinkEdge.msg
   LinkGraph.msg
   LinkNode.msg
   RemoconApp.msg
+  RemoconStatus.msg
   RoleAppList.msg
   Roles.msg
 )
@@ -43,6 +47,8 @@ add_service_files(
   ClientList.srv
   GetRolesAndApps.srv
   Invite.srv
+  RequestInteraction.srv
+  SetRolesAndApps.srv
   StartSolution.srv
   StopSolution.srv
 )
@@ -51,6 +57,7 @@ generate_messages(DEPENDENCIES
     std_msgs 
     rocon_std_msgs
     rocon_app_manager_msgs
+    uuid_msgs
 )
 
 ##############################################################################
@@ -62,4 +69,5 @@ catkin_package(CATKIN_DEPENDS
                    std_msgs
                    rocon_std_msgs
                    rocon_app_manager_msgs
+                   uuid_msgs
                )

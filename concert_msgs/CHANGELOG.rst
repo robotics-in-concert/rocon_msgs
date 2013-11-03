@@ -2,6 +2,11 @@
 Changelog for package concert_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.3 (forthcoming)
+-------------------
+
+* Next iteration of role manager messages and services (`#26`_).
+
 0.6.3 (2013-10-30)
 ------------------
 * added a service name to uniquely separate same services in a solution.
@@ -100,3 +105,5 @@ Changelog for package concert_msgs
 
 0.1.0 (2012-03-29)
 ------------------
+
+.. _`#26`: https://github.com/robotics-in-concert/rocon_msgs/pull/26
