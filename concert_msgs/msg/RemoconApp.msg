@@ -9,6 +9,9 @@
 # com.github.rosjava.android_apps.listener.Listener.
 string name
 
+# The platforms this app can be expected to run on.
+rocon_std_msgs/PlatformInfo platform_info
+
 ###############################################################
 # Variable specifications modifiable by the solution/service
 ###############################################################
@@ -16,7 +19,8 @@ string name
 # User friendly version of the name. Useful to be customised
 # differently from the name for either 1) branding, or 2) because
 # some names are complicated visually (e.g. android names).
-string display_name 
+string display_name
+ 
 # Should be a default for the app, but sometimes useful to
 # override it to provide more human friendly information.
 string description
