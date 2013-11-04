@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
     std_msgs
     rocon_std_msgs
     rocon_app_manager_msgs
+    uuid_msgs
 )
 
 ##############################################################################
@@ -59,6 +60,7 @@ generate_messages(DEPENDENCIES
     std_msgs 
     rocon_std_msgs
     rocon_app_manager_msgs
+    uuid_msgs
 )
 
 ##############################################################################
