@@ -1,0 +1,19 @@
+# Used by services to add or delete role-apps from the role
+# managers role-app table. 
+
+# A list of lists (one list for each role). This is the
+# only way to represent a dictionary in ros msgs.
+RoleAppList[] data
+
+# If true, add them to the configured role-app table. If false,
+# attempt to remove them.
+bool add
+
+---
+
+bool result
+
+# Failure just means that it was already present and subsequently
+# not added, or not present and subsequently not removed. No need
+# for error messages.
+

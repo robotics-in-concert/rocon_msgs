@@ -3,42 +3,35 @@
 ##############################################################################
 
 cmake_minimum_required(VERSION 2.8.3)
-project(rocon_std_msgs)
+project(scheduler_msgs)
 
 ##############################################################################
 # Dependencies
 ##############################################################################
 
-find_package(catkin REQUIRED COMPONENTS 
-    genmsg 
-    std_msgs 
-)
+set(${PROJECT_NAME}_MSG_DEPENDENCIES
+    rocon_std_msgs
+    std_msgs
+    uuid_msgs)
+
+find_package(catkin REQUIRED
+  COMPONENTS message_generation ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 
 ##############################################################################
-# Messgaes
+# Messages
 ##############################################################################
 
 add_message_files(
   DIRECTORY msg
   FILES
-  Icon.msg
-  KeyValue.msg
-  PlatformInfo.msg
-  Remapping.msg
-)
+  AllocateResources.msg
+  Request.msg
+  SchedulerFeedback.msg)
 
-add_service_files(
-  DIRECTORY srv
-  FILES
-  GetPlatformInfo.srv
-)
-
-generate_messages(DEPENDENCIES
-    std_msgs 
-)
+generate_messages(DEPENDENCIES ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 
 ##############################################################################
 # Package
 ##############################################################################
 
-catkin_package(CATKIN_DEPENDS message_runtime std_msgs)
+catkin_package(CATKIN_DEPENDS ${${PROJECT_NAME}_MSG_DEPENDENCIES})
