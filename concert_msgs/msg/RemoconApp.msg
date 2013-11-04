@@ -37,3 +37,6 @@ rocon_std_msgs/Remapping[] remappings
 
 # Parameters for the app
 rocon_std_msgs/KeyValue[] parameters
+
+# Maximum number of permitted connections (0 = any)
+int32 max
