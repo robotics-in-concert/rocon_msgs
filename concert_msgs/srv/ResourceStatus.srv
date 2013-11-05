@@ -1,0 +1,6 @@
+---
+ConcertClient[] available_clients
+ConcertClient[] inuse_clients
+ServiceResourcePair[] requested_resources
+ServiceResourcePair[] engaged_pairs
+

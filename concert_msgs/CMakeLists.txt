@@ -39,6 +39,10 @@ add_message_files(
   RemoconStatus.msg
   RoleAppList.msg
   Roles.msg
+  ConcertService.msg
+  ListConcertService.msg
+  RequestResources.msg
+  ServiceResourcePair.msg
 )
 
 add_service_files(
@@ -51,6 +55,10 @@ add_service_files(
   SetRolesAndApps.srv
   StartSolution.srv
   StopSolution.srv
+  AddConcertService.srv
+  RemoveConcertService.srv
+  EnableConcertService.srv
+  ResourceStatus.srv
 )
 
 generate_messages(DEPENDENCIES
