@@ -24,7 +24,8 @@ string VERSION_ANDROID_JELLYBEAN=jellybean
 
 # Valid platform types
 string PLATFORM_ANY=*
-string PLATFORM_SMART_DEVICE=smart_device # phone or tablet
+# phone or tablet
+string PLATFORM_SMART_DEVICE=smart_device
 string PLATFORM_PHONE=phone
 string PLATFORM_TABLET=tablet
 string PLATFORM_PC=pc
