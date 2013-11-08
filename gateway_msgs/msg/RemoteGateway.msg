@@ -12,10 +12,11 @@ int8 WIRELESS = 2
 
 # Gateway ping indicators
 bool gateway_available
+int64 time_last_seen #absolute time - seconds since epoch
 float32 ping_latency_min
 float32 ping_latency_max
 float32 ping_latency_avg
-float32 ping_latency_mdev
+float32 ping_latency_mdev #mean absolute deviation
 
 # Gateway network information indicators
 bool network_info_available
