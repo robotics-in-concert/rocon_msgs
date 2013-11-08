@@ -23,14 +23,12 @@ add_message_files(
   AppList.msg
   Constants.msg
   ErrorCodes.msg
-  PlatformInfo.msg
 )
 
 add_service_files(
   DIRECTORY srv
   FILES
   GetAppList.srv
-  GetPlatformInfo.srv
   Init.srv
   Invite.srv
   SimpleInvite.srv
