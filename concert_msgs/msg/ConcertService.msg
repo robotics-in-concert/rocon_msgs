@@ -5,7 +5,7 @@ int16                       status
 bool                        enabled
 uint16                      priority
 uuid_msgs/UniqueID          uuid
-concert_msgs/LinkGraph      linkgraph
+string                      launcher
 
 # Service Status
 int16 UNEXPECTED_ERROR      = -3
