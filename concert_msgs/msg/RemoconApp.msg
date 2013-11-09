@@ -35,8 +35,8 @@ rocon_std_msgs/Icon icon
 # Any remappings that need to be applied
 rocon_std_msgs/Remapping[] remappings
 
-# Parameters for the app
-rocon_std_msgs/KeyValue[] parameters
+# Yaml string representing parameters for the app
+string parameters
 
 # Maximum number of permitted connections (0 = any)
 int32 max
