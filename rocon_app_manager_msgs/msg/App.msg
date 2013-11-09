@@ -1,3 +1,4 @@
+
 # app name
 string name
 # user-friendly display name
@@ -6,8 +7,9 @@ string description
 string platform
 string status
 
-# how many services can share this rapp?
-uint16 share
+# how many higher level users (e.g. concert level) are permitted to use this app?
+int16 SHAREABLE_WITH_NO_LIMIT = -1
+int16 share
 
 # icon for showing the app
 rocon_std_msgs/Icon icon
