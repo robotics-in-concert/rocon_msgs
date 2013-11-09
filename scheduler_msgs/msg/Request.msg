@@ -39,3 +39,4 @@ time  availability      # Estimated time of availability (zero if unknown)
 #   description is resolved to the exact object allocated.
 #
 rocon_std_msgs/PlatformInfo resource    # What resource is desired
+concert_msgs/LinkEdge[]     remappings

@@ -10,6 +10,7 @@ project(scheduler_msgs)
 ##############################################################################
 
 set(${PROJECT_NAME}_MSG_DEPENDENCIES
+    concert_msgs
     rocon_std_msgs
     std_msgs
     uuid_msgs)
