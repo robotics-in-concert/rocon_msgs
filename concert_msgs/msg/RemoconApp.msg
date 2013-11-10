@@ -26,7 +26,8 @@ string display_name
 string description
 
 # The service name (unique) that this app will be associated
-# with in the running concert.
+# with in the running concert. Use this to push down into
+# namespace /services/_service_name_
 string service_name
 
 # Again, should exist a default, but may want to override it.
@@ -38,5 +39,5 @@ rocon_std_msgs/Remapping[] remappings
 # Yaml string representing parameters for the app
 string parameters
 
-# Maximum number of permitted connections (0 = any)
+# Maximum number of permitted connections (-1 = any)
 int32 max
