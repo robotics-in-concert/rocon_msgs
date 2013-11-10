@@ -6,6 +6,7 @@ bool                        enabled
 uint16                      priority
 uuid_msgs/UniqueID          uuid
 string                      launcher
+string                      interactions
 
 # Service Status
 int16 UNEXPECTED_ERROR      = -3
