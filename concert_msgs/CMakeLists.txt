@@ -43,6 +43,7 @@ add_message_files(
   ListConcertService.msg
   RequestResources.msg
   ServiceResourcePair.msg
+  Strings.msg
 )
 
 add_service_files(
