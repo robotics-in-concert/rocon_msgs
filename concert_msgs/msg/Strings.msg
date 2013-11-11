@@ -3,3 +3,5 @@
 
 string get_roles_and_apps = /concert/interactions/get_roles_and_apps
 string set_roles_and_apps = /concert/interactions/set_roles_and_apps
+
+string REQUEST_RESOURCES = '/concert/request_resources'
