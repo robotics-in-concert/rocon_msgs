@@ -9,3 +9,8 @@ int8 QUOTA_REACHED = 21  # Maximum number or role-app connections already reache
 
 string MSG_UNAVAILABLE = "This role-app pair is not available for use."
 string MSG_QUOTA_REACHED = "More connections of this type not permitted."
+
+# Concert Service
+int8 SERVICE_UNEXPECTED_ERROR = -3
+int8 SERVICE_INSUFFICIENT_CLIENTS = -2
+int8 SERVICE_NOT_READY = -1
