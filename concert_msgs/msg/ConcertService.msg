@@ -5,7 +5,7 @@ int16                       status
 bool                        enabled
 uint16                      priority
 uuid_msgs/UniqueID          uuid
-uint16                      launcher_type
+string                      launcher_type
 string                      launcher
 string                      interactions
 
