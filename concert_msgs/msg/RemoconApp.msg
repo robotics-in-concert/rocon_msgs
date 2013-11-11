@@ -5,8 +5,9 @@
 #
 # Name of the application. This should be the string required
 # to install the application on the remocon's end. e.g. for
-# android this will be an intent action name such as
-# com.github.rosjava.android_apps.listener.Listener.
+# android app this will be an intent action name such as
+# com.github.rosjava.android_apps.listener.Listener, while for
+# a web app it will be its URL.
 string name
 
 # The platforms this app can be expected to run on.
