@@ -28,6 +28,8 @@ add_message_files(
   ConcertClientConfiguration.msg
   ConcertClients.msg
   ConcertInfo.msg
+  ConcertService.msg
+  ConcertServices.msg
   Constants.msg
   ErrorCodes.msg
   Implementation.msg
@@ -39,8 +41,6 @@ add_message_files(
   RemoconStatus.msg
   RoleAppList.msg
   Roles.msg
-  ConcertService.msg
-  ListConcertService.msg
   RequestResources.msg
   ServiceResourcePair.msg
   Strings.msg

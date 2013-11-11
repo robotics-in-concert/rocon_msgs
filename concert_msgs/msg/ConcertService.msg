@@ -16,5 +16,6 @@ int16 NOT_READY             = -1
 int16 READY                 = 0
 
 # Service TYPE
-uint16 TYPE_ROSLAUNCH = 1
-uint16 TYPE_CUSTOM    = 2
+string TYPE_ROSLAUNCH = roslaunch
+string TYPE_CUSTOM    = custom
+
