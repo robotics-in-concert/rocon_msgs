@@ -3,4 +3,5 @@
 LinkNode[]        nodes
 LinkConnection[]  topics
 LinkConnection[]  actions
+LinkConnection[]  services
 LinkEdge[]        edges
