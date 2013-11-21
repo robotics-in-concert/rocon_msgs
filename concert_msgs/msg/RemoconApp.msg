@@ -42,3 +42,19 @@ string parameters
 
 # Maximum number of permitted connections (-1 = any)
 int32 max
+
+###############################################################
+# Parameters set by the solution on startup
+###############################################################
+
+# This is a crc32 hash code for the service-role-name
+# unique string that identifies this remocon app.
+# crc32 gets a few collisions, so we should be careful of that.
+# It is used by the nfc android auto-launching program so we can
+# compactify the request in the url sent by the nfc to the autolauncher.
+int32 hash
+
+# The role this solution has configured the remocon app for. This is in
+# some use cases redundant, and in other use cases essential (e.g.
+# headless launcher)
+string role
