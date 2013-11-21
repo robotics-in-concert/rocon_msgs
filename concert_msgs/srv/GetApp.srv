@@ -12,4 +12,5 @@ int32 hash
 rocon_std_msgs/PlatformInfo platform_info
 ---
 
+bool result
 RemoconApp app
