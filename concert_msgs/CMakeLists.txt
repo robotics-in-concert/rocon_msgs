@@ -50,6 +50,7 @@ add_service_files(
   DIRECTORY srv
   FILES
   ClientList.srv
+  GetApp.srv
   GetRolesAndApps.srv
   Invite.srv
   RequestInteraction.srv

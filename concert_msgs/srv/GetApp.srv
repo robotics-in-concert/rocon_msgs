@@ -1,0 +1,15 @@
+# For the auto app launcher (used with nfc tag) to get the information
+# about a single app.
+
+# We had to trim down the request data given to us by the nfc tag.
+# Hence this just keys into the hash of the app we are interested in.
+
+int32 hash
+
+# The platform of the requesting device. This will get
+# the role manager to filter the app list for this platform.
+# If not specified, the role manager will assume *.*.*.*
+rocon_std_msgs/PlatformInfo platform_info
+---
+
+RemoconApp app
