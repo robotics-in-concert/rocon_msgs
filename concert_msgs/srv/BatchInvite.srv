@@ -1,0 +1,9 @@
+# Used to handle requests to batch invite concert clients. Typically this will be the scheduler
+# sending an batch invite request to the conductor, which then deals out individual invitations
+# to concert clients. 
+
+string mastername
+string[] clientnames
+bool ok_flag
+---
+string result

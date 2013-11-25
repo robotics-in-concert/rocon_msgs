@@ -49,10 +49,10 @@ add_message_files(
 add_service_files(
   DIRECTORY srv
   FILES
+  BatchInvite.srv
   ClientList.srv
   GetApp.srv
   GetRolesAndApps.srv
-  Invite.srv
   RequestInteraction.srv
   SetRolesAndApps.srv
   StartSolution.srv
