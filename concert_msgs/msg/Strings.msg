@@ -7,3 +7,6 @@ string SET_ROLES_AND_APPS = /concert/interactions/set_roles_and_apps
 
 # Currently a publisher.
 string REQUEST_RESOURCES = /concert/request_resources
+
+string GATEWAY_SHUTDOWN = /concert/gateway/shutdown
+string HUB_SHUTDOWN = /concert/hub/shutdown
