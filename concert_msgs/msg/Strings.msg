@@ -10,3 +10,6 @@ string REQUEST_RESOURCES = /concert/request_resources
 
 string GATEWAY_SHUTDOWN = /concert/gateway/shutdown
 string HUB_SHUTDOWN = /concert/hub/shutdown
+
+# Parameters
+string PARAM_ROCON_SCREEN = /rocon/screen
