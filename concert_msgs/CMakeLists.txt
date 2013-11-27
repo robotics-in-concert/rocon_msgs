@@ -49,7 +49,6 @@ add_message_files(
 add_service_files(
   DIRECTORY srv
   FILES
-  BatchInvite.srv
   ClientList.srv
   GetApp.srv
   GetRolesAndApps.srv
