@@ -15,6 +15,9 @@ string platform
 string client_status
 string app_status
 
+# Is on the same machine ip as the conductor
+bool is_local_client
+
 # Depracate this
 string status
 
