@@ -10,6 +10,7 @@ Change history
    - add new SchedulerRequests message type
    - deprecate AllocateResources and SchedulerFeedback
    - add new RESERVED status to Request message
+   - add hold_time duration to Request message
 
 .. _`#27`: https://github.com/robotics-in-concert/rocon_msgs/pull/27
 .. _`#41`: https://github.com/robotics-in-concert/rocon_msgs/issue/41
