@@ -1,5 +1,7 @@
 ### Allocate Resources
 #
+#   DEPRECATED: use SchedulerRequests instead.
+#
 #   Rocon services send this message on the scheduler's input topic to
 #   make or update their resource requests.  All resources they
 #   current have or desire will be included.

@@ -1,5 +1,7 @@
 ### Scheduler Feedback
 #
+#   DEPRECATED: use SchedulerRequests instead.
+#
 #   This message is sent to a requester whenever the status of some
 #   request it made has changed.
 #

@@ -27,7 +27,8 @@ add_message_files(
   FILES
   AllocateResources.msg
   Request.msg
-  SchedulerFeedback.msg)
+  SchedulerFeedback.msg
+  SchedulerRequests.msg)
 
 generate_messages(DEPENDENCIES ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 

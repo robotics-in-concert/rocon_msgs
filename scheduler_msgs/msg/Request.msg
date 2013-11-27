@@ -29,6 +29,7 @@ uint8 RELEASING   = 7   # The requester wishes to release this
                         #   confirmed that the request is canceled
 uint8 RELEASED    = 8   # The resource has been released successfully
                         #   (Terminal State)
+uint8 RESERVED    = 9   # A request for a reservation at some future time
 
 time  availability      # Estimated time of availability (zero if unknown)
 
