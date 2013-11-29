@@ -29,8 +29,10 @@ uint8 RELEASING   = 7   # The requester wishes to release this
                         #   confirmed that the request is canceled
 uint8 RELEASED    = 8   # The resource has been released successfully
                         #   (Terminal State)
+uint8 RESERVED    = 9   # A request for a reservation at some future time
 
-time  availability      # Estimated time of availability (zero if unknown)
+time     availability   # Estimated time of availability (zero if unknown)
+duration hold_time      # Estimated hold time once allocated (zero if unknown)
 
 ##  A rocon platform information tuple describes the desired resource.
 #
