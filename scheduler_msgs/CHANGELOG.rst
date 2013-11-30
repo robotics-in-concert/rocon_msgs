@@ -14,5 +14,5 @@ Change history
  * Add priority to Request message (`#43`_).
 
 .. _`#27`: https://github.com/robotics-in-concert/rocon_msgs/pull/27
-.. _`#41`: https://github.com/robotics-in-concert/rocon_msgs/issue/41
-.. _`#43`: https://github.com/robotics-in-concert/rocon_msgs/issue/43
+.. _`#41`: https://github.com/robotics-in-concert/rocon_msgs/issues/41
+.. _`#43`: https://github.com/robotics-in-concert/rocon_msgs/issues/43
