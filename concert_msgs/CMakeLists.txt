@@ -24,6 +24,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
+  CancelResources.msg
   ConcertClient.msg
   ConcertClientConfiguration.msg
   ConcertClients.msg
@@ -39,6 +40,7 @@ add_message_files(
   LinkNode.msg
   RemoconApp.msg
   RemoconStatus.msg
+  Resource.msg
   RoleAppList.msg
   Roles.msg
   RequestResources.msg
@@ -49,7 +51,6 @@ add_message_files(
 add_service_files(
   DIRECTORY srv
   FILES
-  ClientList.srv
   GetApp.srv
   GetRolesAndApps.srv
   RequestInteraction.srv

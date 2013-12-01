@@ -13,3 +13,6 @@ string HUB_SHUTDOWN = /concert/hub/shutdown
 
 # Parameters
 string PARAM_ROCON_SCREEN = /rocon/screen
+
+# Namespaces
+string REMOCONS_NAMESPACE = /remocons
