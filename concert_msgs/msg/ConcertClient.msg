@@ -22,6 +22,7 @@ bool is_local_client
 string status
 
 # Statistics
+gateway_msgs/ConnectionStatistics conn_stats
 time last_connection_timestamp
 
 rocon_app_manager_msgs/App[] apps
