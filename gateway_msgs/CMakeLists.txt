@@ -21,6 +21,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
+  ConnectionStatistics.msg
   ConnectionType.msg
   GatewayInfo.msg
   RemoteGateway.msg
