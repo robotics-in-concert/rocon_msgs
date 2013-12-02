@@ -27,6 +27,7 @@ add_message_files(
   FILES
   AllocateResources.msg
   Request.msg
+  Resource.msg
   SchedulerFeedback.msg
   SchedulerRequests.msg)
 

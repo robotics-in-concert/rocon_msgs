@@ -1,6 +1,0 @@
----
-string[] available_clients
-string[] inuse_clients
-ServiceResourcePair[] requested_resources
-ServiceResourcePair[] engaged_pairs
-
