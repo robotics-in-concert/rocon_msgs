@@ -1,9 +1,14 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package rocon_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package rocon_std_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 0.6.3 (2013-10-30)
 ------------------
+* rocon_std_msgs centralises some app manager messages for sharing.
+
+Forthcoming
+-----------
+* rocon_std_msgs centralises some app manager messages for sharing.
 
 0.6.2 (2013-09-11)
 ------------------
@@ -13,39 +18,24 @@ Changelog for package rocon_msgs
 
 0.6.0 (2013-08-07 18:58)
 ------------------------
-* 0.5.2
-* 0.5.1
-* removing demo message
-* 0.5.0
 
 0.5.3 (2013-08-07 19:04)
 ------------------------
-* removing demo message
 
 0.5.2 (2013-07-17)
 ------------------
 
 0.5.1 (2013-06-10 16:28:55 +0900)
 ---------------------------------
-* removing demo message
-* 0.5.0
 
 0.5.0 (2013-05-27)
 ------------------
-* adding buildtool depend
-* 0.4.0
-* adding CMake for meta pkg
 
 0.3.0 (2013-02-05)
 ------------------
-* update jihoon email
 
 0.2.1 (2013-01-31)
 ------------------
-* bugfix package name dependency.
-* refactoring app->rapp.
-* added maintainers.
-* catkin metapackage.
 
 0.2.0 (2012-12-23 14:15:44)
 ---------------------------

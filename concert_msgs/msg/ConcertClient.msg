@@ -5,14 +5,18 @@
 string name
 string gateway_name
 
-# The platform id triple (refer to concert_clients/PlatformInfo.msg for string values)
-string platform
+# The platform id tuple (refer to rocon_std_msgs/PlatformInfo.msg for string values)
+string os
+string version
 string system
-string robot
+string platform
 
 # Current status of the concert client (refer to concert_msgs/ConcertClient.msg for mode strings)
 string client_status
 string app_status
+
+# Is on the same machine ip as the conductor
+bool is_local_client
 
 # Depracate this
 string status

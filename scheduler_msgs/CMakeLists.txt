@@ -3,44 +3,37 @@
 ##############################################################################
 
 cmake_minimum_required(VERSION 2.8.3)
-project(rocon_app_manager_msgs)
+project(scheduler_msgs)
 
 ##############################################################################
 # Dependencies
 ##############################################################################
 
-find_package(catkin REQUIRED COMPONENTS message_generation rocon_std_msgs)
+set(${PROJECT_NAME}_MSG_DEPENDENCIES
+    concert_msgs
+    rocon_std_msgs
+    std_msgs
+    uuid_msgs)
+
+find_package(catkin REQUIRED
+  COMPONENTS message_generation ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 
 ##############################################################################
-# Messgaes
+# Messages
 ##############################################################################
 
 add_message_files(
   DIRECTORY msg
   FILES
-  PairingClient.msg
-  App.msg
-  AppList.msg
-  Constants.msg
-  ErrorCodes.msg
-)
+  AllocateResources.msg
+  Request.msg
+  SchedulerFeedback.msg
+  SchedulerRequests.msg)
 
-add_service_files(
-  DIRECTORY srv
-  FILES
-  GetAppList.srv
-  Init.srv
-  Invite.srv
-  SimpleInvite.srv
-  StartApp.srv
-  Status.srv
-  StopApp.srv
-)
-
-generate_messages(DEPENDENCIES rocon_std_msgs)
+generate_messages(DEPENDENCIES ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 
 ##############################################################################
 # Package
 ##############################################################################
 
-catkin_package(CATKIN_DEPENDS message_runtime rocon_std_msgs)
+catkin_package(CATKIN_DEPENDS ${${PROJECT_NAME}_MSG_DEPENDENCIES})

@@ -3,13 +3,16 @@
 ##############################################################################
 
 cmake_minimum_required(VERSION 2.8.3)
-project(rocon_app_manager_msgs)
+project(rocon_std_msgs)
 
 ##############################################################################
 # Dependencies
 ##############################################################################
 
-find_package(catkin REQUIRED COMPONENTS message_generation rocon_std_msgs)
+find_package(catkin REQUIRED COMPONENTS 
+    genmsg 
+    std_msgs 
+)
 
 ##############################################################################
 # Messgaes
@@ -18,29 +21,24 @@ find_package(catkin REQUIRED COMPONENTS message_generation rocon_std_msgs)
 add_message_files(
   DIRECTORY msg
   FILES
-  PairingClient.msg
-  App.msg
-  AppList.msg
-  Constants.msg
-  ErrorCodes.msg
+  Icon.msg
+  KeyValue.msg
+  PlatformInfo.msg
+  Remapping.msg
 )
 
 add_service_files(
   DIRECTORY srv
   FILES
-  GetAppList.srv
-  Init.srv
-  Invite.srv
-  SimpleInvite.srv
-  StartApp.srv
-  Status.srv
-  StopApp.srv
+  GetPlatformInfo.srv
 )
 
-generate_messages(DEPENDENCIES rocon_std_msgs)
+generate_messages(DEPENDENCIES
+    std_msgs 
+)
 
 ##############################################################################
 # Package
 ##############################################################################
 
-catkin_package(CATKIN_DEPENDS message_runtime rocon_std_msgs)
+catkin_package(CATKIN_DEPENDS message_runtime std_msgs)

@@ -1,6 +1,6 @@
 <package>
   <name>concert_msgs</name>
-  <version>0.6.2</version>
+  <version>0.7.0</version>
   <description>
     Shared communication types for the concert framework.
   </description>
@@ -16,10 +16,14 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>message_generation</build_depend>
   <build_depend>std_msgs</build_depend>
+  <build_depend>rocon_std_msgs</build_depend>
   <build_depend>rocon_app_manager_msgs</build_depend>
+  <build_depend>uuid_msgs</build_depend>
 
   <run_depend>message_runtime</run_depend>
   <run_depend>std_msgs</run_depend>
   <run_depend>rocon_app_manager_msgs</run_depend>
+  <run_depend>rocon_std_msgs</run_depend>
+  <run_depend>uuid_msgs</run_depend>
   
 </package>

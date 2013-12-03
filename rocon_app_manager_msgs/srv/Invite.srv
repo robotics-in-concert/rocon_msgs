@@ -11,3 +11,7 @@ string application_namespace
 bool cancel
 ---
 bool result
+# classifying start success/failure, see ErrorCodes.msg (to be implemented)
+int32 error_code
+# human friendly string for debugging (usually upon error)
+string message
