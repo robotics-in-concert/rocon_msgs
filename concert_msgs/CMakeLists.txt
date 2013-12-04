@@ -10,10 +10,11 @@ project(concert_msgs)
 ##############################################################################
 
 find_package(catkin REQUIRED COMPONENTS 
+    gateway_msgs
     message_generation 
-    std_msgs
-    rocon_std_msgs
     rocon_app_manager_msgs
+    rocon_std_msgs
+    std_msgs
     uuid_msgs
 )
 
@@ -58,9 +59,10 @@ add_service_files(
 )
 
 generate_messages(DEPENDENCIES
-    std_msgs 
-    rocon_std_msgs
+    gateway_msgs
     rocon_app_manager_msgs
+    rocon_std_msgs
+    std_msgs 
     uuid_msgs
 )
 
@@ -69,9 +71,10 @@ generate_messages(DEPENDENCIES
 ##############################################################################
 
 catkin_package(CATKIN_DEPENDS 
+                   gateway_msgs
                    message_runtime
-                   std_msgs
-                   rocon_std_msgs
                    rocon_app_manager_msgs
+                   rocon_std_msgs
+                   std_msgs
                    uuid_msgs
                )
