@@ -24,7 +24,8 @@ string PARAM_ROCON_SCREEN = /rocon/screen
 string SCHEDULER_REQUESTS = /concert/scheduler/requests
 
 # Conductor
-string CONCERT_CLIENT_CHANGES = /concert/list_concert_clients
+string CONCERT_CLIENTS = /concert/conductor/concert_clients
+string CONCERT_CLIENT_CHANGES = /concert/conductor/concert_client_changes
 
 # Namespaces
 string REMOCONS_NAMESPACE = /remocons
