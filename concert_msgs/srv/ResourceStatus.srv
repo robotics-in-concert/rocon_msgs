@@ -1,0 +1,7 @@
+# This will depracate after the demo, dec '13
+
+---
+string[] available_clients
+string[] inuse_clients
+ServiceResourcePair[] requested_resources
+ServiceResourcePair[] engaged_pairs
