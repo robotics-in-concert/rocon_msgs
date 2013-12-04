@@ -1,3 +1,8 @@
+# Constants
+int8 WIRED = 1
+int8 WIRELESS = 2
+int32 MAX_TTL = 86400
+
 # Gateway ping indicators
 bool gateway_available
 int64 time_since_last_seen #time in seconds since last ping successful
