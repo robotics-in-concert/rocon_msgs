@@ -42,6 +42,7 @@ add_message_files(
   RemoconStatus.msg
   RoleAppList.msg
   Roles.msg
+  ServiceResourcePair.msg  # to be deprecated
   Strings.msg
 )
 
@@ -55,6 +56,7 @@ add_service_files(
   StartSolution.srv
   StopSolution.srv
   RemoveConcertService.srv
+  ResourceStatus.srv  # to be deprecated
   EnableConcertService.srv
 )
 
