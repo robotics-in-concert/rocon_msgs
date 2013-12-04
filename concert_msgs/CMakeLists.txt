@@ -25,7 +25,6 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
-  CancelResources.msg
   ConcertClient.msg
   ConcertClientConfiguration.msg
   ConcertClients.msg
@@ -41,11 +40,8 @@ add_message_files(
   LinkNode.msg
   RemoconApp.msg
   RemoconStatus.msg
-  Resource.msg
   RoleAppList.msg
   Roles.msg
-  RequestResources.msg
-  ServiceResourcePair.msg
   Strings.msg
 )
 
@@ -58,10 +54,8 @@ add_service_files(
   SetRolesAndApps.srv
   StartSolution.srv
   StopSolution.srv
-  AddConcertService.srv
   RemoveConcertService.srv
   EnableConcertService.srv
-  ResourceStatus.srv
 )
 
 generate_messages(DEPENDENCIES

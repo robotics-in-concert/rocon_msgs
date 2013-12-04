@@ -1,10 +1,21 @@
 ### Resource request description
 #
-#   This tracks the progress of a single requested resource.
+#   This tracks the progress of a single requested resource group.
 #
 #   QUESTION: do we need to track each request time separately?
 #
+##############################################################################
+# Resource Identification
+##############################################################################
+
+# This is usually a uniquely identifying ros_package/rapp name identifier.
+# This is unique because ros packages are necessarily unique. 
+Resource[] resources
 uuid_msgs/UniqueID id   # Requester-assigned unique identifier
+
+##############################################################################
+# State
+##############################################################################
 
 ##  Status values are similar to actionlib goal states.
 #   NOTE: still likely to change.
@@ -31,16 +42,10 @@ uint8 RELEASED    = 8   # The resource has been released successfully
                         #   (Terminal State)
 uint8 RESERVED    = 9   # A request for a reservation at some future time
 
-int16 priority          # current priority of this request
+##############################################################################
+# Scheduling Variables
+##############################################################################
 
+int16    priority       # current priority of this request
 time     availability   # Estimated time of availability (zero if unknown)
 duration hold_time      # Estimated hold time once allocated (zero if unknown)
-
-##  A rocon platform information tuple describes the desired resource.
-#
-#   It may contain wild-cards matching various alternatives.
-#   When a resource containing wild-cards gets assigned, its
-#   description is resolved to the exact object allocated.
-#
-rocon_std_msgs/PlatformInfo resource    # What resource is desired
-concert_msgs/LinkEdge[]     remappings
