@@ -25,10 +25,8 @@ find_package(catkin REQUIRED
 add_message_files(
   DIRECTORY msg
   FILES
-  AllocateResources.msg
   Request.msg
   Resource.msg
-  SchedulerFeedback.msg
   SchedulerRequests.msg)
 
 generate_messages(DEPENDENCIES ${${PROJECT_NAME}_MSG_DEPENDENCIES})
