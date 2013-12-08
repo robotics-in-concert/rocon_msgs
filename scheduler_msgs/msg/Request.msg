@@ -14,6 +14,14 @@ Resource[] resources
 uuid_msgs/UniqueID id   # Requester-assigned unique identifier
 
 ##############################################################################
+# Constants
+##############################################################################
+
+# We might like to apply some broader priority classifications via constants
+# (e.g. background, default, high, critical) for simplified usage
+int16 DEFAULT_PRIORITY = 0  # A sane default for priorities
+
+##############################################################################
 # State
 ##############################################################################
 
