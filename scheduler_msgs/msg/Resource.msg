@@ -3,6 +3,10 @@
 # This is unique because ros packages are necessarily unique. 
 string name
 
+# unique identifier to help custom requesters keep a tab on resources
+# in the scheduler feedback.
+uuid_msgs/UniqueID id
+
 ##############################################################################
 # Hints
 ##############################################################################
