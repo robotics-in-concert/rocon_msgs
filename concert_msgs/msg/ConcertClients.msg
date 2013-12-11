@@ -5,3 +5,4 @@
 # any use case for that information yet.
 #
 concert_msgs/ConcertClient[] clients
+concert_msgs/ConcertClient[] uninvited_clients
