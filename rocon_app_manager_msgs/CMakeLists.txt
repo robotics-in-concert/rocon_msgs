@@ -21,6 +21,7 @@ add_message_files(
   PairingClient.msg
   App.msg
   AppList.msg
+  IncompatibleAppList.msg
   Constants.msg
   ErrorCodes.msg
 )
