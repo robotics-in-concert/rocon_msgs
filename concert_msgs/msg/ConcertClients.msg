@@ -1,8 +1,7 @@
 # 
-# List the invited ConcertClient's.
+# List the ConcertClients.
 #
-# We could list non-invited (busy or blocking) clients here as well, but we don't have
-# any use case for that information yet.
+# Should extend this list to include blocking clients as well.
 #
 concert_msgs/ConcertClient[] clients
 concert_msgs/ConcertClient[] uninvited_clients
