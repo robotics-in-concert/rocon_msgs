@@ -26,14 +26,13 @@ add_message_files(
   DIRECTORY msg
   FILES
   ConcertClient.msg
-  ConcertClientConfiguration.msg
   ConcertClients.msg
   ConcertInfo.msg
   ConcertService.msg
   ConcertServices.msg
   Constants.msg
   ErrorCodes.msg
-  Implementation.msg
+  InteractiveClient.msg
   LinkConnection.msg
   LinkEdge.msg
   LinkGraph.msg

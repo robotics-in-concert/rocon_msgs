@@ -10,7 +10,8 @@ string gateway_name
 # for them.
 string platform_info
 
-# Current status of the concert client (refer to concert_msgs/ConcertClient.msg for mode strings)
+# Current status of the concert client. Refer to concert_msgs/Constants.msg 
+# for mode strings.
 string client_status
 string app_status
 
