@@ -33,6 +33,7 @@ add_message_files(
   Constants.msg
   ErrorCodes.msg
   InteractiveClient.msg
+  InteractiveClients.msg
   LinkConnection.msg
   LinkEdge.msg
   LinkGraph.msg

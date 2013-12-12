@@ -5,7 +5,7 @@
 # provided by the remocon client.
 
 string name
-string unique_name
+uuid_msgs/UniqueID id
 
 # Platform filter - could use a string here, or the PlatformInfo msg itself.
 # Strings are easier and can be validated through appropriate api written
@@ -13,4 +13,5 @@ string unique_name
 string platform_info
 
 # Application that is being run by the interactive client.
-RemoconApp app
+# RemoconApp app
+string app_name
