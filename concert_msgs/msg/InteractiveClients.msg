@@ -3,4 +3,4 @@
 # are currently running an app.
 #
 concert_msgs/InteractiveClient[] idle_clients
-concert_msgs/InteractiveClient[] interactive_clients
+concert_msgs/InteractiveClient[] running_clients
