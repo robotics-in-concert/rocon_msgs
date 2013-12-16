@@ -1,7 +1,7 @@
 Change history
 ==============
 
-0.6.3 (forthcoming)
+0.6.5 (forthcoming)
 -------------------
 
  * Initial version of an experimental scheduler message package for
