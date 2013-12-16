@@ -1,8 +1,8 @@
 Change history
 ==============
 
-0.6.3 (forthcoming)
--------------------
+(forthcoming)
+-------------
 
  * Initial version of an experimental scheduler message package for
    Hydro (`#27`_).
