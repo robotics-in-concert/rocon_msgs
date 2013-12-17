@@ -22,6 +22,7 @@ string PARAM_ROCON_SCREEN = /rocon/screen
 
 # Scheduler
 string SCHEDULER_REQUESTS = /concert/scheduler/requests
+string SCHEDULER_UNALLOCATED_RESOURCE = 'unallocated'
 
 # Conductor
 string CONCERT_CLIENTS = /concert/conductor/concert_clients
