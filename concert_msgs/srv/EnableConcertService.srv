@@ -1,4 +1,4 @@
-string concertservice_name
+string name
 bool enable
 ---
 bool success
