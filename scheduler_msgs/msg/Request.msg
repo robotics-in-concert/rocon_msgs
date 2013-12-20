@@ -1,32 +1,23 @@
 ### Resource request description
 #
 #   This tracks the progress of a single requested resource group.
-#
-#   QUESTION: do we need to track each request time separately?
-#
+#   All these resources will be granted, preempted or canceled
+#   together as a unit.
+
 ##############################################################################
 # Resource Identification
 ##############################################################################
 
-Resource[] resources    # identifying ros_package/rapp and platform
 uuid_msgs/UniqueID id   # Requester-assigned universally unique identifier
-
-##############################################################################
-# Constants
-##############################################################################
-
-# We might like to apply some broader priority classifications via constants
-# (e.g. background, default, high, critical) for simplified usage
-int16 DEFAULT_PRIORITY = 0  # A sane default for priorities
+Resource[] resources    # List of requested rapps and platforms
 
 ##############################################################################
 # State
 ##############################################################################
 
-##  Status value labels:
-#
 uint8 status            # Current status of this request
 
+##  Status value labels:
 uint8 NEW         = 0   # A new request for the scheduler
 uint8 RESERVED    = 1   # A request for a reservation at some future time
 uint8 WAITING     = 2   # The request has been queued by the scheduler
@@ -40,8 +31,7 @@ uint8 CANCELING   = 5   # The requester wishes to release this
 uint8 CANCELED    = 6   # The resource has been released successfully
                         #   (unique terminal state)
 
-## Deprecated status values, use newer equivalents instead:
-#
+## Deprecated status labels, use the newer equivalents instead:
 uint8 ABORTED     = 6
 uint8 REJECTED    = 6
 uint8 RELEASING   = 5
@@ -51,6 +41,12 @@ uint8 RELEASED    = 6
 # Scheduling Variables
 ##############################################################################
 
-int16    priority       # Current priority of this request
 time     availability   # Estimated time of availability (zero if unknown)
 duration hold_time      # Estimated hold time once allocated (zero if unknown)
+int16    priority       # Current priority of this request
+
+## Priority labels:
+int16 LOW_PRIORITY = -1000              # A low-priority background task
+int16 DEFAULT_PRIORITY = 0              # A sane default priority
+int16 HIGH_PRIORITY = 1000              # A high-priority task
+int16 CRITICAL_PRIORITY = 2000          # A mission-critical task
