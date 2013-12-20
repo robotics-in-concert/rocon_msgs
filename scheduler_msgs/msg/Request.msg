@@ -46,8 +46,8 @@ duration hold_time      # Estimated hold time once allocated (zero if unknown)
 int16    priority       # Current priority of this request
 
 ## Priority labels:
-int16 BACKGROUND_PRIORITY = -2000       # When nothing else to do
-int16 LOW_PRIORITY = -1000              # Low-priority task
+int16 BACKGROUND_PRIORITY = -20000      # When nothing else to do
+int16 LOW_PRIORITY = -10000             # Low-priority task
 int16 DEFAULT_PRIORITY = 0              # Sane default priority
-int16 HIGH_PRIORITY = 1000              # High-priority task
-int16 CRITICAL_PRIORITY = 2000          # Mission-critical task
+int16 HIGH_PRIORITY = 10000             # High-priority task
+int16 CRITICAL_PRIORITY = 20000         # Mission-critical task
