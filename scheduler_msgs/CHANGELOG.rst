@@ -1,8 +1,14 @@
 Change history
 ==============
 
-(forthcoming)
--------------
+0.7.0 (forthcoming)
+-------------------
+
+ * Targetted for Indigo Igloo release.
+ * Revise status labels, deprecating old labels (`#60`_).
+
+0.6.5 (2013-12-19)
+------------------
 
  * Initial version of an experimental scheduler message package for
    Hydro (`#27`_).
@@ -17,3 +23,4 @@ Change history
 .. _`#27`: https://github.com/robotics-in-concert/rocon_msgs/pull/27
 .. _`#41`: https://github.com/robotics-in-concert/rocon_msgs/issues/41
 .. _`#43`: https://github.com/robotics-in-concert/rocon_msgs/issues/43
+.. _`#60`: https://github.com/robotics-in-concert/rocon_msgs/issues/60
