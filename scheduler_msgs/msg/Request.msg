@@ -16,26 +16,33 @@ Resource[] resources    # List of requested rapps and platforms
 ##############################################################################
 
 uint8 status            # Current status of this request
+uint8 reason            # Reason for this status
 
-##  Status value labels:
-uint8 NEW         = 0   # A new request for the scheduler
-uint8 RESERVED    = 1   # A request for a reservation at some future time
-uint8 WAITING     = 2   # The request has been queued by the scheduler
-uint8 GRANTED     = 3   # The request was granted by the scheduler
+#  Status value labels:
+uint8 NEW         = 0   # New request for the scheduler
+uint8 RESERVED    = 1   # Request for a reservation at some future time
+uint8 WAITING     = 2   # Request has been queued by the scheduler
+uint8 GRANTED     = 3   # Request was granted by the scheduler
 uint8 PREEMPTING  = 4   # The scheduler wants to preempt this
                         #   previously-granted request, but the
-                        #   requester has not yet released it
-uint8 CANCELING   = 5   # The requester wishes to release this
-                        #   resource, but the scheduler has not yet
-                        #   confirmed that the request is canceled
-uint8 CANCELED    = 6   # The resource has been released successfully
-                        #   (unique terminal state)
+                        #   requester has not yet canceled it
+uint8 CANCELING   = 5   # The requester wishes to cancel this
+                        #   request, but the scheduler has not yet
+                        #   confirmed that it is closed
+uint8 CLOSED      = 6   # Request is now closed (terminal state)
 
-## Deprecated status labels, use the newer equivalents instead:
+# Deprecated status labels, use the newer equivalents instead:
 uint8 ABORTED     = 6
 uint8 REJECTED    = 6
 uint8 RELEASING   = 5
 uint8 RELEASED    = 6
+
+# Reason labels:
+uint8 NONE        = 0   # No reason provided
+uint8 PREEMPTED   = 1   # Preempted for higher-priority task
+uint8 BUSY        = 2   # Requested resource busy elsewhere
+uint8 UNAVAILABLE = 3   # Requested resource not available
+uint8 TIMEOUT     = 4   # Lost contact with requester
 
 ##############################################################################
 # Scheduling Variables
@@ -45,7 +52,7 @@ time     availability   # Estimated time of availability (zero if unknown)
 duration hold_time      # Estimated hold time once allocated (zero if unknown)
 int16    priority       # Current priority of this request
 
-## Priority labels:
+# Priority labels:
 int16 BACKGROUND_PRIORITY = -20000      # When nothing else to do
 int16 LOW_PRIORITY = -10000             # Low-priority task
 int16 DEFAULT_PRIORITY = 0              # Sane default priority
