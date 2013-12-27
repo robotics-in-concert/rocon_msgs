@@ -31,12 +31,6 @@ uint8 CANCELING   = 5   # The requester wishes to cancel this
                         #   confirmed that it is closed
 uint8 CLOSED      = 6   # Request is now closed (terminal state)
 
-# Deprecated status labels, use the newer equivalents instead:
-uint8 ABORTED     = 6
-uint8 REJECTED    = 6
-uint8 RELEASING   = 5
-uint8 RELEASED    = 6
-
 # Reason labels:
 uint8 NONE        = 0   # No reason provided
 uint8 PREEMPTED   = 1   # Preempted for higher-priority task

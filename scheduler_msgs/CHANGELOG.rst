@@ -9,7 +9,7 @@ Change history
 0.6.6 (forthcoming)
 -------------------
 
- * Revise status labels, deprecating old ones (`#60`_):
+ * Revise status labels, removing old ones (`#60`_):
     - ABORTED -> CLOSED
     - REJECTED -> CLOSED
     - RELEASING -> CANCELING
