@@ -19,9 +19,11 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <run_depend>rocon_std_msgs</run_depend>
+  <run_depend>rocon_annotation_msgs</run_depend>
   <run_depend>rocon_app_manager_msgs</run_depend>
   <run_depend>concert_msgs</run_depend>
   <run_depend>gateway_msgs</run_depend>
+  <run_depend>scheduler_msgs</run_depend>
   
   <export>
     <metapackage/>
