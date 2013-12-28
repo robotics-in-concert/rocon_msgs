@@ -1,0 +1,7 @@
+# Request renaming the associated map identified by map_uuid.
+
+# Unique ID of the associated map.
+string map_uuid
+
+string new_name
+---

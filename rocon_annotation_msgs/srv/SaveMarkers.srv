@@ -1,0 +1,13 @@
+# Request saving a list of AR markers for the map identified by map_uuid.
+# If no annotations are found on database for map_uuid, it does nothing.
+
+# Unique ID of the associated map.
+string map_uuid
+
+ar_track_alvar/AlvarMarkers markers
+---
+# Whether annotations were found on database for map_uuid
+bool found
+
+# What went wrong, if anything
+string error_msg

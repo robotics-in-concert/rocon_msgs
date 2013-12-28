@@ -23,6 +23,22 @@ add_message_files(
   MapListEntry.msg
 )
 
+add_service_files(
+  DIRECTORY srv
+  FILES
+  DeleteAnnotations.srv
+  ListAnnotations.srv
+  PublishAnnotations.srv
+  RenameAnnotations.srv
+  SaveAnnotations.srv
+  # Disabling these as they depend on yocs_msgs and ar_track_alvar
+  # Priority job is to remove these dependencies from rocon_annotations
+  #SaveMarkers.srv
+  #SaveColumns.srv
+  #SaveTables.srv
+  #SaveWalls.srv
+)
+
 generate_messages(DEPENDENCIES)
 
 ##############################################################################

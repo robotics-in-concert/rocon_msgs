@@ -1,0 +1,10 @@
+# Request deleting annotations associated to the map identified by map_uuid.
+
+# Unique ID of the associated map.
+string map_uuid
+---
+# Whether annotations were found on database for map_uuid
+bool found
+
+# What went wrong, if anything
+string error_msg

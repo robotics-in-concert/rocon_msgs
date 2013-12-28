@@ -1,0 +1,16 @@
+# Request saving currently published annotations, associated to the map identified by map_uuid.
+
+# Naming the associated map is optional.
+string map_name
+
+# Unique ID of the associated map.
+string map_uuid
+
+# Maps made by the make-a-map app are given a session ID, which is the
+# time when the map-making session was started, expressed as seconds
+# since the epoch and converted to a string. Reuse for annotations though
+# not sure if it's somehow useful
+string session_id
+---
+# What went wrong, if anything
+string error_msg
