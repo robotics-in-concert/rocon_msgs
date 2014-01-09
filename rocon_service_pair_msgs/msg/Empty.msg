@@ -1,0 +1,1 @@
+# Fake dependency to bring in uuid_msgs

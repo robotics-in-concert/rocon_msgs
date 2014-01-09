@@ -48,7 +48,7 @@ add_service_pair_files(
   StartApp.pair
 )
 
-generate_messages(DEPENDENCIES rocon_std_msgs)
+generate_messages(DEPENDENCIES rocon_std_msgs rocon_service_pair_msgs)
 
 ##############################################################################
 # Package

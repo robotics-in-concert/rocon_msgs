@@ -71,8 +71,8 @@ def main():
         if len(pieces) != 2:
             raise ActionSpecException("%s: wrong number of pieces, %d"%(filename,len(pieces)))
         service_request, service_response = pieces
-        service_request_msg = AUTOGEN + service_request
-        service_response_msg = AUTOGEN + service_response
+        service_request_msg = AUTOGEN + 'uuid_msgs/UniqueID id\n' + service_request
+        service_response_msg = AUTOGEN + 'uuid_msgs/UniqueID id\n' + service_response
 
         write_file(os.path.join(args.output_dir, "%sRequest.msg"%name), service_request_msg)
         write_file(os.path.join(args.output_dir, "%sResponse.msg"%name), service_response_msg)
