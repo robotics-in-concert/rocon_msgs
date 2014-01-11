@@ -50,13 +50,14 @@ macro(add_service_pair_files)
     set(MESSAGE_DIR ${CATKIN_DEVEL_PREFIX}/share/${PROJECT_NAME}/msg)
     set(OUTPUT_FILES
       ${SERVICE_PAIR_SHORT_NAME}Request.msg
+      ${SERVICE_PAIR_SHORT_NAME}PairRequest.msg
       ${SERVICE_PAIR_SHORT_NAME}Response.msg
+      ${SERVICE_PAIR_SHORT_NAME}PairResponse.msg
       )
 
     _prepend_path(${MESSAGE_DIR}/ "${OUTPUT_FILES}" OUTPUT_FILES_W_PATH)
 
-    message(STATUS "Generating .msg files for service pair ${PROJECT_NAME}/${SERVICE_PAIR_SHORT_NAME} ${service_pair_file}")
-
+    message(STATUS "Generating .msg files for service pair ${PROJECT_NAME}/${SERVICE_PAIR_SHORT_NAME}")
     stamp(${service_pair_file})
 
     if(${service_pair_file} IS_NEWER_THAN ${MESSAGE_DIR}/${SERVICE_PAIR_SHORT_NAME}Request.msg)
@@ -67,4 +68,5 @@ macro(add_service_pair_files)
       BASE_DIR ${MESSAGE_DIR}
       FILES ${OUTPUT_FILES})
   endforeach()
+  message(STATUS "     ... this is hard work, toss me a beer!")
 endmacro()
