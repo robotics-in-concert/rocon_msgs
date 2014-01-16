@@ -2,6 +2,10 @@
 Changelog for package rocon_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.7 (2014-01-16)
+------------------
+* first version of service pair messages.
+
 0.6.0 (2013-08-07 18:58)
 ------------------------
 * 0.5.2
