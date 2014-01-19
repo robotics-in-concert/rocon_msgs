@@ -24,6 +24,7 @@ add_message_files(
   Icon.msg
   KeyValue.msg
   PlatformInfo.msg
+  PlatformTuple.msg
   Remapping.msg
 )
 
