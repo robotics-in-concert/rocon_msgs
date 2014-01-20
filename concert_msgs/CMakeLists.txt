@@ -57,7 +57,7 @@ add_service_files(
   StopSolution.srv
   RemoveConcertService.srv
   ResourceStatus.srv  # to be deprecated
-  EnableConcertService.srv
+  EnableService.srv
 )
 
 generate_messages(DEPENDENCIES
