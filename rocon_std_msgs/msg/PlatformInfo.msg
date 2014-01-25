@@ -3,5 +3,8 @@
 
 ########################### Variables ###########################
 
-PlatformTuple tuple
+# rocon universal resource identifier
+string uri
+# rocon version compatibility identifier (used when connecting to concerts)
+string version
 Icon icon

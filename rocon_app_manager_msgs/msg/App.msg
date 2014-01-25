@@ -3,7 +3,8 @@ string name
 # user-friendly display name
 string display_name
 string description
-rocon_std_msgs/PlatformTuple platform_tuple
+# rocon universal resource identifier (aka platform dependency)
+string uri
 string status
 
 # icon for showing the app

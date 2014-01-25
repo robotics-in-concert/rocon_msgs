@@ -5,10 +5,10 @@
 # it will return app lists for all roles.
 string[] roles
 
-# The platform of the requesting device. This will get
-# the role manager to filter the app list for this platform.
-# If not specified, the role manager will assume *.*.*.*
-rocon_std_msgs/PlatformInfo platform_info
+# The rocon uri of the requesting device. This will get
+# the interactions manager to filter the app list for this platform.
+# If not specified, the manager will assume 'rocon://' (wildcards)
+string uri
 ---
 
 # Return a list of lists (one list for each role). This is the
