@@ -19,7 +19,7 @@ string ROCON_VERSION="adams"
 
 ###### GENERAL IDENTIFIERS ######
 
-string URI_WILDCARD=any
+string URI_WILDCARD=*
 
 ###### HARDWARE_PLATFORMS ######
 string HW_PC=pc
