@@ -8,3 +8,6 @@ string uuid
 # uuid_msgs/UniqueID uuid
 bool running_app
 string app_name
+
+# rocon version compatibility identifier (used when connecting to concerts)
+string version
