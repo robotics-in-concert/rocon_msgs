@@ -8,7 +8,7 @@
 #     One of his works is 'Short Ride in a Fast Machine' which very much
 #     describes early rocon development.
 
-string ROCON_VERSION="adams"
+string ROCON_VERSION=adams
 
 ######################## Rocon URIS ###########################################
 

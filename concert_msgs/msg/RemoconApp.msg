@@ -10,8 +10,8 @@
 # a web app it will be its URL.
 string name
 
-# A filter labelling the platforms this app can run on
-string uri
+# A rocon uri string denoting the platforms this app can run on
+string compatibility
 
 ###############################################################
 # Variable specifications modifiable by the solution/service

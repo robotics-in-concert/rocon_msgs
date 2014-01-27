@@ -3,8 +3,8 @@ string name
 # user-friendly display name
 string display_name
 string description
-# rocon universal resource identifier (aka platform dependency)
-string uri
+# a rocon uri string indicating platform compatibility
+string compatibility
 string status
 
 # icon for showing the app
