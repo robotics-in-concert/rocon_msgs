@@ -17,6 +17,9 @@ string ROCON_VERSION="adams"
 # sure these stay up to date with respect to each other (TODO: perhaps an
 # autogenerator of this msg file?).
 
+###### GENERAL IDENTIFIERS ######
+
+string URI_WILDCARD=any
 
 ###### HARDWARE_PLATFORMS ######
 string HW_PC=pc
@@ -44,7 +47,6 @@ string APPLICATION_FRAMEWORK_IGLOO=igloo
 string APPLICATION_FRAMEWORK_ROS_OTHER=ros_other
 
 ###### OPERATING SYSTEMS ######
-string OS_ANY=*
 string OS_OSX=osx
 string OS_FREEBSD=freebsd
 # Windows
