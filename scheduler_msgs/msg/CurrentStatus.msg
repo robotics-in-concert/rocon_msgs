@@ -1,19 +1,19 @@
 ### ROCON resource current status.
 #
 #   A ROCON scheduler uses this message to report the status of each
-#   single resource it manages.
+#   resource it manages.
 #
 
 ##############################################################################
 # Resource Identification
 ##############################################################################
 
-#   Canonical ROCON identifier for this specific resource, typically a
-#   fully-resolved URI in the form:
+#   A canonical ROCON Uniform Resource Identifier describing this
+#   resource, a fully-resolved character string in the form:
 #
-#      rocon:///os/version/system/platform/name
+#      rocon:/platform/name/framework/os
 #
-string platform_info
+string uri
 
 ##############################################################################
 # Status
