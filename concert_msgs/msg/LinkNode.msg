@@ -3,7 +3,7 @@
 # unique identifier
 string id
 
-# rocon uri representing the required resource, e.g. rocon:///turtlebot/*#turtle_concert/turtle_stroll
+# rocon uri representing the required resource, e.g. rocon:/turtlebot/*#turtle_concert/turtle_stroll
 string resource
 
 # Constraints on how many of these nodes may exist
