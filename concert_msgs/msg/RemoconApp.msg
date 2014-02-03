@@ -10,8 +10,8 @@
 # a web app it will be its URL.
 string name
 
-# The platforms this app can be expected to run on.
-rocon_std_msgs/PlatformInfo platform_info
+# A rocon uri string denoting the platforms this app can run on
+string compatibility
 
 ###############################################################
 # Variable specifications modifiable by the solution/service

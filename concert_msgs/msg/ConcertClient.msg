@@ -5,10 +5,8 @@
 string name
 string gateway_name
 
-# Platform filter - could use a string here, or the PlatformInfo msg itself.
-# Strings are easier and can be validated through appropriate api written
-# for them.
-string platform_info
+# Information about the concert client.
+rocon_std_msgs/PlatformInfo platform_info
 
 # Current status of the concert client. Refer to concert_msgs/Constants.msg 
 # for mode strings.

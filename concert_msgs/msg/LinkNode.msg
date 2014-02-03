@@ -3,8 +3,8 @@
 # unique identifier
 string id
 
-# tuple representing the client node - platform.system.robot.app, e.g. linux.ros.turtlebot.turtle_stroll
-string tuple
+# rocon uri representing the required resource, e.g. rocon:/turtlebot/*#turtle_concert/turtle_stroll
+string resource
 
 # Constraints on how many of these nodes may exist
 #   min, max not set -> min = 1, max = 1
