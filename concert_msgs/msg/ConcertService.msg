@@ -1,6 +1,7 @@
 # Constants - service types
 string TYPE_ROSLAUNCH = roslaunch
 string TYPE_CUSTOM    = custom
+string TYPE_SHADOW    = shadow
 
 # Pre-configured parameters
 string                      name
