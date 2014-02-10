@@ -8,6 +8,7 @@ string                      name
 string                      description
 string                      author
 uint16                      priority
+rocon_std_msgs/Icon         icon
 string                      launcher_type
 string                      launcher
 string                      interactions
