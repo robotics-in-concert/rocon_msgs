@@ -49,6 +49,7 @@ macro(add_service_pair_files)
     get_filename_component(SERVICE_PAIR_SHORT_NAME ${service_pair_file} NAME_WE)
     set(MESSAGE_DIR ${CATKIN_DEVEL_PREFIX}/share/${PROJECT_NAME}/msg)
     set(OUTPUT_FILES
+      ${SERVICE_PAIR_SHORT_NAME}Pair.msg
       ${SERVICE_PAIR_SHORT_NAME}Request.msg
       ${SERVICE_PAIR_SHORT_NAME}PairRequest.msg
       ${SERVICE_PAIR_SHORT_NAME}Response.msg
