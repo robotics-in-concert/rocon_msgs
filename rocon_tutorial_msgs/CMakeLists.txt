@@ -15,8 +15,15 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 ##############################################################################
-# Messgaes
+# Messages
 ##############################################################################
+
+
+add_service_files(
+  DIRECTORY srv
+  FILES
+  GetAvailableResources.srv
+)
 
 add_service_pair_files(
   DIRECTORY pairs
