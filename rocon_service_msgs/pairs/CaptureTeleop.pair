@@ -1,0 +1,9 @@
+# Used by turtle_concert/teleop service to handle requests to capture
+# teleopable robots.
+
+# Usually the rocon uri provided to the remocon in the list of available
+# teleopable robots.
+string rocon_uri
+---
+# Success or failure of the allocation
+bool result
