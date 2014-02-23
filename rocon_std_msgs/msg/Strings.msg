@@ -4,11 +4,10 @@
 
 # Rocon versions come from the names of classical composers.
 #
-# Adams (John) - http://en.wikipedia.org/wiki/John_Adams_(composer)
-#     One of his works is 'Short Ride in a Fast Machine' which very much
-#     describes early rocon development.
+# ACDC - http://en.wikipedia.org/?title=AC/DC
+#     Australian, awesome and on a highway to hell.
 
-string ROCON_VERSION=adams
+string ROCON_VERSION=acdc
 
 ######################## Rocon URIS ###########################################
 
