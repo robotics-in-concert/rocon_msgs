@@ -1,11 +1,11 @@
 ###############################################################
-# Specifications non-modifiable by the solution/service
+# Non-modifiable Specifications
 ###############################################################
 # These should be stored in a meta-repository somewhere.
 #
-# Name of the application. This should be the string required
-# to install the application on the remocon's end. e.g. for
-# android app this will be an intent action name such as
+# Name of the remocon application. This should be the string
+# required to install the application on the remocon's end. e.g.
+# for android app this will be an intent action name such as
 # com.github.rosjava.android_apps.listener.Listener, while for
 # a web app it will be its URL.
 string name
@@ -14,7 +14,7 @@ string name
 string compatibility
 
 ###############################################################
-# Variable specifications modifiable by the solution/service
+# Variable Specifications
 ###############################################################
 
 # User friendly version of the name. Useful to be customised
@@ -26,10 +26,13 @@ string display_name
 # override it to provide more human friendly information.
 string description
 
-# The service name (unique) that this app will be associated
-# with in the running concert. Use this to push down into
-# namespace /services/_service_name_
-string service_name
+# The namespace that this app will be associated
+# with. Interfaces from the app will be automatically pushed
+# into this namespace (for concerts it will be typically
+# used by the services to push interfaces into /services/_service_name_).
+# It is up to the user to make sure this is unique to avoid
+# potential conflicts.
+string namespace
 
 # Again, should exist a default, but may want to override it.
 rocon_std_msgs/Icon icon
@@ -44,7 +47,7 @@ string parameters
 int32 max
 
 ###############################################################
-# Parameters set by the solution on startup
+# Parameters finalised by the interactions manager
 ###############################################################
 
 # This is a crc32 hash code for the service-role-name

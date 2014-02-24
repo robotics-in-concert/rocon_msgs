@@ -1,0 +1,14 @@
+# Extend or delete the rocon interactions database with this list. 
+
+Interaction[] interactions
+
+# If true, add, else attempt to remove them.
+bool add
+
+---
+
+bool result
+
+# Could use better error handling here - provide a list of what got
+# got manipulated and what did not.
+
