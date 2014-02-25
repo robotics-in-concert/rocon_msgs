@@ -8,11 +8,9 @@
 # using the roslaunch api such as in the service manager). Having them centralised
 # here makes refactoring across the whole concert as easy as possible.
 #
-# Note: nonetheless, use these directly as little as possible.
-
-# Services
-string GET_ROLES_AND_APPS = /concert/interactions/get_roles_and_apps
-string SET_ROLES_AND_APPS = /concert/interactions/set_roles_and_apps
+# Note: nonetheless, use these directly as little as possible. Prefer rostopic.find_by_type
+# and rosservice.rosservice_find for getting services that should be unique
+# (e.g. gateway/interactions)
 
 string GATEWAY_SHUTDOWN = /concert/gateway/shutdown
 string HUB_SHUTDOWN = /concert/hub/shutdown

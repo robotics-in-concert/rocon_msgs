@@ -2,8 +2,8 @@
 
 Interaction[] interactions
 
-# If true, add, else attempt to remove them.
-bool add
+# If true, load, else attempt to unload them.
+bool load
 
 ---
 
