@@ -30,3 +30,4 @@ string CONCERT_CLIENT_CHANGES = /concert/conductor/concert_client_changes
 
 # Namespaces
 string REMOCONS_NAMESPACE = /remocons
+string SERVICE_NAMESPACE = /services
