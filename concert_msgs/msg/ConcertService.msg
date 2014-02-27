@@ -12,6 +12,7 @@ rocon_std_msgs/Icon         icon
 string                      launcher_type
 string                      launcher
 string                      interactions
+string                      parameters
 
 # Initialised parameters (on startup)
 uuid_msgs/UniqueID          uuid
