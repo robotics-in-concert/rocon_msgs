@@ -1,7 +1,4 @@
-# Strings that are constant with respect to the entire concert. Listing them here
-# allows every user to automatically update if there are any refactorings.
-#
-# Note: personally every fibre of my existential ros experience strums with
+# Every fibre of a programmer's ros experience should strum with
 # the twang of rebellion at the thought of hardcoding strings. We have however
 # quite alot of places where remappings are impossible (android remocons, ...)
 # and launcher remappings are sometimes done in code anyway (especially where we are
@@ -10,7 +7,7 @@
 #
 # Note: nonetheless, use these directly as little as possible. Prefer rostopic.find_by_type
 # and rosservice.rosservice_find for getting services that should be unique
-# (e.g. gateway/interactions)
+# (e.g. gateway/interactions). Refer to rocon_python_comms for some wrappers around these.
 
 string GATEWAY_SHUTDOWN = /concert/gateway/shutdown
 string HUB_SHUTDOWN = /concert/hub/shutdown
@@ -25,6 +22,3 @@ string SCHEDULER_UNALLOCATED_RESOURCE = unallocated
 # Conductor
 string CONCERT_CLIENTS = /concert/conductor/concert_clients
 string CONCERT_CLIENT_CHANGES = /concert/conductor/concert_client_changes
-
-# Namespaces
-string REMOCONS_NAMESPACE = /remocons

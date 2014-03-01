@@ -32,25 +32,16 @@ add_message_files(
   ConcertServices.msg
   Constants.msg
   ErrorCodes.msg
-  Interaction.msg
-  InteractiveClient.msg
-  InteractiveClients.msg
   LinkConnection.msg
   LinkEdge.msg
   LinkGraph.msg
   LinkNode.msg
-  RemoconStatus.msg
-  Roles.msg
   Strings.msg
 )
 
 add_service_files(
   DIRECTORY srv
   FILES
-  GetInteraction.srv
-  GetInteractions.srv
-  RequestInteraction.srv
-  SetInteractions.srv
   StartSolution.srv
   StopSolution.srv
   RemoveConcertService.srv
