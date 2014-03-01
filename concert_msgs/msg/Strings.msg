@@ -22,3 +22,6 @@ string SCHEDULER_UNALLOCATED_RESOURCE = unallocated
 # Conductor
 string CONCERT_CLIENTS = /concert/conductor/concert_clients
 string CONCERT_CLIENT_CHANGES = /concert/conductor/concert_client_changes
+
+# Namespaces
+string SERVICE_NAMESPACE = /services
