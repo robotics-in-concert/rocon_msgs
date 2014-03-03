@@ -1,4 +1,4 @@
-# This is used between remocons and the role manager to request
+# This is used between remocons and the interactions manager to request
 # the launch of a remote application to interact with the concert.
 
 int32 hash

@@ -27,7 +27,6 @@ add_message_files(
   FILES
   ConcertClient.msg
   ConcertClients.msg
-  ConcertInfo.msg
   ConcertService.msg
   ConcertServices.msg
   Constants.msg

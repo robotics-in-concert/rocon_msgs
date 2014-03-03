@@ -7,7 +7,9 @@ string uuid
 # We should be using this, but java can't handle the type, reintegrate when we bugfix.
 # uuid_msgs/UniqueID uuid
 bool running_app
-string app_name
+
+# Todo: could provide more information than the hash here for easier introspection
+int32 hash
 
 # rocon version compatibility identifier (used when connecting to concerts)
 string version
