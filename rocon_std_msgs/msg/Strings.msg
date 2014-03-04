@@ -66,3 +66,10 @@ string OS_HONEYCOMB=honeycomb
 string OS_ICE_CREAM_SANDWICH=ice_cream_sandwich
 string OS_JELLYBEAN=jellybean
 string OS_KITKAT=kitkat
+
+
+
+######################## Rocon Export Tags################################
+
+string TAG_SERVICE=rocon_service
+string TAG_RAPP=rocon_app
