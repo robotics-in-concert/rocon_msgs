@@ -11,7 +11,7 @@
 #
 
 string name
-uuid_msgs/UniqueID id
+#uuid_msgs/UniqueID id
 string description
 rocon_std_msgs/Icon icon
 string version
