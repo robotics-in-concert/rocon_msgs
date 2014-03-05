@@ -4,6 +4,7 @@ string TYPE_CUSTOM    = custom
 string TYPE_SHADOW    = shadow
 
 # Pre-configured parameters
+string                      resource
 string                      name
 string                      description
 string                      author
