@@ -26,6 +26,7 @@ add_message_files(
   KeyValue.msg
   MasterInfo.msg
   PlatformInfo.msg
+  StringArray.msg
   Strings.msg
   Remapping.msg
 )
