@@ -1,4 +1,4 @@
-string name
+string resource
 bool enable
 ---
 bool success
