@@ -43,7 +43,6 @@ add_service_files(
   FILES
   StartSolution.srv
   StopSolution.srv
-  RemoveConcertService.srv
   EnableService.srv
 )
 
