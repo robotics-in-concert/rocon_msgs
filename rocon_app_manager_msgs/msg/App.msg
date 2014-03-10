@@ -1,4 +1,4 @@
-# app name
+# app name (ros resource name format, i.e. pkg/name, e.g. turtle_concert/teleop)
 string name
 # user-friendly display name
 string display_name
