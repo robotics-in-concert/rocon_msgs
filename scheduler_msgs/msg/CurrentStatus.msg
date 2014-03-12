@@ -32,9 +32,14 @@ uint8 MISSING     = 2   # Not currently responding
 #   one might.
 uuid_msgs/UniqueID owner
 
+#   The priority of an ALLOCATED resource is the priority of its
+#   owning request.  An AVAILABLE resource never has a non-zero
+#   priority, but a MISSING one might.
+int16 priority
+
 #   List of ROCON application names currently available with this
-#   resource. The name string is usually a "ros_package/rapp"
-#   identifier, unique because ros package names are unique.  The
+#   resource. The name string is usually a ROS "package/node"
+#   identifier, unique because ROS package names are unique.  The
 #   contents of this list could change over time due to the device's
 #   own activities.
 string[] rapps
