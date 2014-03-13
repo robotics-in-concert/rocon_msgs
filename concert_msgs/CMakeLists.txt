@@ -27,22 +27,20 @@ add_message_files(
   FILES
   ConcertClient.msg
   ConcertClients.msg
-  ConcertService.msg
-  ConcertServices.msg
   Constants.msg
   ErrorCodes.msg
   LinkConnection.msg
   LinkEdge.msg
   LinkGraph.msg
   LinkNode.msg
+  ServiceProfile.msg
+  Services.msg
   Strings.msg
 )
 
 add_service_files(
   DIRECTORY srv
   FILES
-  StartSolution.srv
-  StopSolution.srv
   EnableService.srv
 )
 
