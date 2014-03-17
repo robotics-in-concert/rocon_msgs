@@ -2,4 +2,8 @@
 RemoteRule remote_rule
 
 # Whether the flip is still pending, was accepted 
-int8 status
+string UNKNOWN=unknown
+string PENDING=pending
+string ACCEPTED=accepted
+string BLOCKED=blocked
+string status
