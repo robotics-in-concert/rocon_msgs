@@ -22,7 +22,7 @@ Rule[] public_interface
 # Flipped and pulled interfaces would be useful for debugging 
 #    https://github.com/robotics-in-concert/rocon_multimaster/issues/84
 
-RemoteRuleWithStatus[] flipped_interface
+RemoteRule[] flipped_interface
 RemoteRule[] pulled_interface
 
 ###### Foreign Interface ######
