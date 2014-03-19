@@ -6,4 +6,5 @@ string UNKNOWN=unknown
 string PENDING=pending
 string ACCEPTED=accepted
 string BLOCKED=blocked
+string RESEND=resend
 string status
