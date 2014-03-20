@@ -22,6 +22,8 @@
   <run_depend>gateway_msgs</run_depend>
   <run_depend>scheduler_msgs</run_depend>
   <run_depend>rocon_service_pair_msgs</run_depend>
+  <run_depend>rocon_interaction_msgs</run_depend>
+  <run_depend>rocon_std_msgs</run_depend>
   
   <export>
     <metapackage/>
