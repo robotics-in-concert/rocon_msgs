@@ -1,8 +1,8 @@
 Change history
 ==============
 
-0.6.6 (2014-01-14)
-------------------
+forthcoming
+-----------
 
  * Revise status labels, removing old ones (`#60`_):
     - ABORTED -> CLOSED
@@ -21,7 +21,6 @@ Change history
     - DEFAULT_PRIORITY: sane default priority
     - HIGH_PRIORITY: high-priority task
     - CRITICAL_PRIORITY: mission-critical task
- * Contributors: Jack O'Quin
 
 0.6.5 (2013-12-19)
 ------------------
