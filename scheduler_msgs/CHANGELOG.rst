@@ -1,8 +1,8 @@
 Change history
 ==============
 
-forthcoming
------------
+0.6.8 (2014-03-21)
+------------------
 
  * Revise status labels, removing old ones (`#60`_):
     - ABORTED -> CLOSED

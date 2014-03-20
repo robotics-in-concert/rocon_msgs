@@ -2,6 +2,11 @@
 Changelog for package rocon_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.8 (2014-03-21)
+------------------
+* adding interaction messages and updated scheduler_msgs.
+* Contributors: Daniel Stonier
+
 0.6.7 (2014-01-16)
 ------------------
 * first version of service pair messages.
