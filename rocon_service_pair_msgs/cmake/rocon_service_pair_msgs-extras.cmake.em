@@ -8,7 +8,7 @@ include(CMakeParseArguments)
 set(GENSERVICEPAIR_BIN "@(CMAKE_CURRENT_SOURCE_DIR)/scripts/genpair.py")
 @[else]@
 # program in installspace
-set(GENSERVICEPAIR_BIN "${rocon_pair_msgs_DIR}/../../../@(CATKIN_PACKAGE_BIN_DESTINATION)/genpair.py")
+set(GENSERVICEPAIR_BIN "${rocon_service_pair_msgs_DIR}/../../../@(CATKIN_PACKAGE_BIN_DESTINATION)/genpair.py")
 @[end if]@
 
 macro(add_service_pair_files)
