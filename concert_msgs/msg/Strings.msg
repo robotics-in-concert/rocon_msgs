@@ -16,7 +16,6 @@ string HUB_SHUTDOWN = /concert/hub/shutdown
 string PARAM_ROCON_SCREEN = /rocon/screen
 
 # Scheduler
-string SCHEDULER_REQUESTS = /concert/scheduler/requests
 string SCHEDULER_UNALLOCATED_RESOURCE = unallocated
 
 # Conductor
