@@ -1,6 +1,11 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package concert_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^
+Changelog
+^^^^^^^^^
+
+0.7.0 (2014-03-29)
+------------------
+
+ * Major redesign focusing on the orchestration platform prototype.
 
 0.6.3 (forthcoming)
 -------------------
@@ -21,10 +26,7 @@ Changelog for package concert_msgs
 
 0.6.0 (2013-08-07 18:58)
 ------------------------
-* 0.5.2
 * remove unused zeroconf_msgs dependency.
-* 0.5.1
-* 0.5.0
 * AppDescription->App
 
 0.5.3 (2013-08-07 19:04)
