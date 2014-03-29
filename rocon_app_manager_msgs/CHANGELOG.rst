@@ -4,8 +4,7 @@ Changelog
 
 0.7.0 (2014-03-29)
 ------------------
-
- * Major redesign focusing on the orchestration platform prototype.
+* major redesign focusing on the orchestration platform prototype.
 
 0.6.3 (2013-10-30)
 ------------------
