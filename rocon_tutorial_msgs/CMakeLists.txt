@@ -23,6 +23,8 @@ add_service_files(
   DIRECTORY srv
   FILES
   GetAvailableResources.srv
+  KillTurtle.srv
+  SpawnTurtle.srv
 )
 
 add_service_pair_files(
