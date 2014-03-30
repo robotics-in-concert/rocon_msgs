@@ -17,6 +17,7 @@ Resource[] resources    # List of requested rapps and platforms
 
 uint8 status            # Current status of this request
 uint8 reason            # Reason for this status
+string problem          # Convenience message for introspecting on the reason 
 
 #  Status value labels:
 uint8 NEW         = 0   # New request for the scheduler
