@@ -19,10 +19,10 @@ find_package(catkin REQUIRED COMPONENTS
 ##############################################################################
 
 
-add_service_files(
-  DIRECTORY srv
-  FILES
-)
+#add_service_files(
+#  DIRECTORY srv
+#  FILES
+#)
 
 add_service_pair_files(
   DIRECTORY pairs
