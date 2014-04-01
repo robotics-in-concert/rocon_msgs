@@ -26,7 +26,7 @@
   <run_depend>rocon_annotation_msgs</run_depend>
   <run_depend>rocon_app_manager_msgs</run_depend>
   <run_depend>rocon_interaction_msgs</run_depend>
-  <run_depend>rocon_service_msgs</run_depend>
+  <run_depend>concert_service_msgs</run_depend>
   <run_depend>rocon_service_pair_msgs</run_depend>
   <run_depend>rocon_std_msgs</run_depend>
   <run_depend>rocon_tutorial_msgs</run_depend>
