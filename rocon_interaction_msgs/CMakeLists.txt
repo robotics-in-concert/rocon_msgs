@@ -27,7 +27,6 @@ add_message_files(
   InteractiveClient.msg
   InteractiveClients.msg
   RemoconStatus.msg
-  Roles.msg
   Strings.msg
 )
 
@@ -38,6 +37,7 @@ add_service_files(
   GetInteractions.srv
   RequestInteraction.srv
   SetInteractions.srv
+  GetRoles.srv
 )
 
 generate_messages(DEPENDENCIES rocon_std_msgs)
