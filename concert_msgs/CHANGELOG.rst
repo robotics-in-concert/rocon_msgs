@@ -2,12 +2,8 @@
 Changelog
 ^^^^^^^^^
 
-0.7.0 (2014-03-29)
+0.7.1 (2014-04-09)
 ------------------
-* major redesign focusing on the orchestration platform prototype.
-
-0.6.3 (forthcoming)
--------------------
 
 * Next iteration of role manager messages and services (`#26`_).
 
