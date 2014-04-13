@@ -31,6 +31,7 @@
   <run_depend>rocon_std_msgs</run_depend>
   <run_depend>rocon_tutorial_msgs</run_depend>
   <run_depend>scheduler_msgs</run_depend>
+  <run_depend>rocon_device_msgs</run_depend>
   
   <export>
     <metapackage/>
