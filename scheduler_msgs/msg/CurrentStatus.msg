@@ -25,6 +25,7 @@ uint8 status            # Current status of this resource
 uint8 AVAILABLE   = 0   # Available for use
 uint8 ALLOCATED   = 1   # Allocated to some ROCON request
 uint8 MISSING     = 2   # Not currently responding
+uint8 GONE        = 3   # Has left the concert (cleanly)
 
 #   The owner is the unique identifier of the Request message to which
 #   this resource is currently assigned, or a zero UUID if it is not
