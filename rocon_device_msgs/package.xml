@@ -1,5 +1,5 @@
 <package>
-  <name>rocon_devices_msgs</name>
+  <name>rocon_device_msgs</name>
   <version>0.7.2</version>
   <description>
     Messages used by rocon devices
