@@ -1,5 +1,10 @@
-Change history
-==============
+Changelog
+=========
+
+0.7.2 (2014-04-16)
+------------------
+* extra status flag for resources that have cleanly left the concert.
+* Contributors: Daniel Stonier
 
 0.7.1 (2014-04-09)
 ------------------
@@ -13,7 +18,7 @@ Change history
 * targeted for Indigo Igloo release.
 
 0.6.6 (2014-04-29)
--------------------
+------------------
 * Revise status labels, removing old ones (`#60`_):
     - ABORTED -> CLOSED
     - REJECTED -> CLOSED
