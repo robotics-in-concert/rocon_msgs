@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.7.3 (2014-04-16)
+------------------
+* refactor rocon_devices_msgs -> rocon_device_msgs.
+
 0.7.2 (2014-04-16)
 ------------------
 * remove project files, update package version and add rocon_device_mssgs in meta package
