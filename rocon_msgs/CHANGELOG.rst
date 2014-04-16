@@ -1,6 +1,12 @@
-^^^^^^^^^
 Changelog
-^^^^^^^^^
+=========
+
+0.7.2 (2014-04-16)
+------------------
+* Merge pull request `#88 <https://github.com/robotics-in-concert/rocon_msgs/issues/88>`_ from robotics-in-concert/update_rocon_devices_msgs
+  create rocon_devices message and hue controller msg
+* remove project files. update package version. add rocon_device_mssgs in meta package
+* Contributors: Daniel Stonier, Jihoon Lee
 
 0.7.1 (2014-04-09)
 ------------------

@@ -3,7 +3,7 @@
 ##############################################################################
 
 cmake_minimum_required(VERSION 2.8.3)
-project(rocon_devices_msgs)
+project(rocon_device_msgs)
 
 ##############################################################################
 # Dependencies
