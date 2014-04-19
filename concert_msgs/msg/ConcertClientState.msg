@@ -1,4 +1,5 @@
-# State of the concert client
+# States of concert clients, these should always be synced with what is provided in ConductorGraph.msg
+# (for completeness, but also because I do some funny magic to extra the possible list of states from there). 
 
 # pending introspection, the client's advertised handles have not yet been pulled in so we can't do anything yet
 string PENDING   = pending

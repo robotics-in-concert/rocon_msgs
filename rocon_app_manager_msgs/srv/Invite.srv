@@ -3,7 +3,7 @@
 
 string remote_target_name
 
-# Set up the default application namespace - there are typically three optinos here:
+# Set up the default application namespace - there are typically three options here:
 #  - an absolute namespace
 #  - a relative namespace, in which case it will reside underneath the app manager namespace
 #  - unset, in which case it defaults to the relative namespace 'application'
