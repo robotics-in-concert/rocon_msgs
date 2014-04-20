@@ -10,7 +10,7 @@ string BLOCKING  = blocking
 # busy serving another remote controller
 string BUSY      = busy
 # waiting for a concert to invite it
-string IDLE      = idle
+string UNINVITED = uninvited
 # in the middle of joining (or rejecting) an invitation from our concert
 string JOINING   = joining
 # is available for use inside this concert
