@@ -7,7 +7,7 @@ int8 UNKNOWN = 1
 # Start
 int8 MULTI_RAPP_NOT_SUPPORTED = 10
 
-# Stop App
+# Stop Rapp
 int8 RAPP_IS_NOT_RUNNING = 20
 
 # Invitations

@@ -1,26 +1,26 @@
-# 
-# Describes a concert client - used only on the concert side
-#
-# Unique names - human consumable rocon name as well as global gateway name
+
+# The concert alias
 string name
+
+# The unfriendly gateway name with the uuid suffix.
 string gateway_name
 
-# Information about the concert client.
+# Platform information about the concert client.
 rocon_std_msgs/PlatformInfo platform_info
 
-# Current status of the concert client. Refer to concert_msgs/Constants.msg 
-# for mode strings.
-string client_status
-string app_status
+# Rapp is running or not, see rocon_app_manager_msgs/Status.msg for valid values
+# [RAPP_STOPPED and RAPP_RUNNING]
+string rapp_status
 
 # Is on the same machine ip as the conductor
 bool is_local_client
 
 # State of the concert client, see ConcertClientState.msg for string constants
+# PENDING, BUSY, BLOCKING, BAD, JOINING, UNINVITED, AVAILABLE, MISSING, GONE 
 string state
 
 # Statistics
 gateway_msgs/ConnectionStatistics conn_stats
-time last_connection_timestamp
+# time last_connection_timestamp
 
-rocon_app_manager_msgs/App[] apps
+rocon_app_manager_msgs/Rapp[] rapps

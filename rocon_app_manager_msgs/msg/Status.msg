@@ -6,8 +6,10 @@ string application_namespace
 # and subsequently is available
 string remote_controller
 
-# Current app status, stopped or running
-string application_status
+# Rapp is running or not
+string RAPP_STOPPED=stopped
+string RAPP_RUNNING=running
+string rapp_status
 
-# Current app details (if running), a default App() (filled with empty strings and lists) otherwise
-rocon_app_manager_msgs/App application
+# Current app details (if running), a default Rapp() (filled with empty strings and lists) otherwise
+Rapp rapp

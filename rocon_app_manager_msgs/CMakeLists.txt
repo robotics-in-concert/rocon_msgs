@@ -21,25 +21,23 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
-  App.msg
-  AppList.msg
+  Rapp.msg
+  RappList.msg
   Constants.msg
   ErrorCodes.msg
-  IncompatibleAppList.msg
-  PairingClient.msg
+  IncompatibleRappList.msg
   Status.msg
 )
 
 add_service_files(
   DIRECTORY srv
   FILES
-  GetAppList.srv
+  GetRappList.srv
   Init.srv
   Invite.srv
-  SimpleInvite.srv
-  StartApp.srv
+  StartRapp.srv
   GetStatus.srv
-  StopApp.srv
+  StopRapp.srv
 )
 
 generate_messages(DEPENDENCIES rocon_std_msgs)
