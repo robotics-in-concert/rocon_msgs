@@ -8,10 +8,6 @@ string gateway_name
 # Platform information about the concert client.
 rocon_std_msgs/PlatformInfo platform_info
 
-# Rapp is running or not, see rocon_app_manager_msgs/Status.msg for valid values
-# [RAPP_STOPPED and RAPP_RUNNING]
-string rapp_status
-
 # Is on the same machine ip as the conductor
 bool is_local_client
 
