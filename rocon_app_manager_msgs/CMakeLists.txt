@@ -21,12 +21,13 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
-  PairingClient.msg
   App.msg
   AppList.msg
-  IncompatibleAppList.msg
   Constants.msg
   ErrorCodes.msg
+  IncompatibleAppList.msg
+  PairingClient.msg
+  Status.msg
 )
 
 add_service_files(
@@ -37,7 +38,7 @@ add_service_files(
   Invite.srv
   SimpleInvite.srv
   StartApp.srv
-  Status.srv
+  GetStatus.srv
   StopApp.srv
 )
 

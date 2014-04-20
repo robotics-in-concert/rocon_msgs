@@ -1,4 +1,3 @@
----
 # Namespace under which applications will run if connected
 string application_namespace
 
