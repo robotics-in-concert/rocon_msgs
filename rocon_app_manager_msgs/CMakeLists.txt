@@ -36,7 +36,6 @@ add_service_files(
   Init.srv
   Invite.srv
   StartRapp.srv
-  GetStatus.srv
   StopRapp.srv
 )
 
