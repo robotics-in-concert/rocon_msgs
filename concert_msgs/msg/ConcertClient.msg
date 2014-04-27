@@ -16,6 +16,7 @@ bool is_local_client
 string state
 
 # Statistics
+string ip
 gateway_msgs/ConnectionStatistics conn_stats
 # time last_connection_timestamp
 
