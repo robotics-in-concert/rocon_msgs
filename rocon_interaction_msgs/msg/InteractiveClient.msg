@@ -9,6 +9,5 @@ uuid_msgs/UniqueID id
 
 rocon_std_msgs/PlatformInfo platform_info
 
-# Application that is being run by the interactive client.
-# RemoconApp app
-string app_name
+# easy to read display names of interactions running on this remocon
+string[] running_interactions

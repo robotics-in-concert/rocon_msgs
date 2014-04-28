@@ -21,11 +21,11 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
-  #Constants.msg
   ErrorCodes.msg
   Interaction.msg
   InteractiveClient.msg
   InteractiveClients.msg
+  Pairing.msg
   RemoconStatus.msg
   Strings.msg
 )
