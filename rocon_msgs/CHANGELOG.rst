@@ -1,11 +1,13 @@
 Changelog
 =========
 
+0.7.5 (2014-05-05)
+------------------
+* graveyarding rocon_annotation_msgs (no longer used).
+
 0.7.2 (2014-04-16)
 ------------------
-* Merge pull request `#88 <https://github.com/robotics-in-concert/rocon_msgs/issues/88>`_ from robotics-in-concert/update_rocon_devices_msgs
-  create rocon_devices message and hue controller msg
-* remove project files. update package version. add rocon_device_mssgs in meta package
+* rocon_device_msgs package added.
 * Contributors: Daniel Stonier, Jihoon Lee
 
 0.7.1 (2014-04-09)
@@ -15,51 +17,23 @@ Changelog
 
 0.7.0 (2014-03-29)
 ------------------
-* Major redesign focusing on the orchestration platform prototype.
+* major redesign focusing on the orchestration platform prototype.
 
 0.6.0 (2013-08-07 18:58)
 ------------------------
-* removing demo message
-
-0.5.2 (2013-07-17)
-------------------
-
-0.5.1 (2013-06-10 16:28:55 +0900)
----------------------------------
-* removing demo message
-* 0.5.0
+* removing demo messages.
 
 0.5.0 (2013-05-27)
 ------------------
 * adding buildtool depend
-* 0.4.0
-* adding CMake for meta pkg
+* adding cmake for meta pkg
 
 0.3.0 (2013-02-05)
 ------------------
-* update jihoon email
+* update jihoon's email
 
 0.2.1 (2013-01-31)
 ------------------
-* bugfix package name dependency.
 * refactoring app->rapp.
 * added maintainers.
 * catkin metapackage.
-
-0.2.0 (2012-12-23 14:15:44)
----------------------------
-
-0.1.4 (2012-12-23 14:15:23)
----------------------------
-
-0.1.3 (2012-12-07)
-------------------
-
-0.1.2 (2012-11-22)
-------------------
-
-0.1.1 (2012-11-21)
-------------------
-
-0.1.0 (2012-03-29)
-------------------
