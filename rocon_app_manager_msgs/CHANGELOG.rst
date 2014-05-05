@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.7.4 (2014-05-05)
+------------------
+* GetStatus removed in favour of a newly created Status latched publisher.
+* App -> Rapp refactoring.
+* Contributors: Daniel Stonier
+
 0.7.0 (2014-03-29)
 ------------------
 * major redesign focusing on the orchestration platform prototype.

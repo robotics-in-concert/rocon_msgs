@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.7.4 (2014-05-05)
+------------------
+* concert client messages with a more expansive set of states.
+* conductor graph msg listing concert clients of all states (useful for monitoring).
+* Contributors: Daniel Stonier
+
 0.7.1 (2014-04-09)
 ------------------
 

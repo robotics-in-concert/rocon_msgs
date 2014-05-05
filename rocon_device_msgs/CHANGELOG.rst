@@ -1,6 +1,9 @@
 Changelog
 =========
 
+0.7.4 (2014-05-05)
+------------------
+
 0.7.3 (2014-04-16)
 ------------------
 * refactor rocon_devices_msgs -> rocon_device_msgs.
