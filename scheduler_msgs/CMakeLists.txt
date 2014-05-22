@@ -36,4 +36,4 @@ generate_messages(DEPENDENCIES ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 # Package
 ##############################################################################
 
-catkin_package(CATKIN_DEPENDS ${${PROJECT_NAME}_MSG_DEPENDENCIES})
+catkin_package(CATKIN_DEPENDS message_runtime ${${PROJECT_NAME}_MSG_DEPENDENCIES})
