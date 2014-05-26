@@ -10,7 +10,7 @@ project(gateway_msgs)
 ##############################################################################
 
 find_package(catkin REQUIRED COMPONENTS 
-    genmsg 
+    message_generation
     std_msgs 
 )
 

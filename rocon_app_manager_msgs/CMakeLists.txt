@@ -12,6 +12,7 @@ project(rocon_app_manager_msgs)
 find_package(catkin REQUIRED COMPONENTS 
     message_generation
     rocon_std_msgs
+    rocon_service_pair_msgs
     )
 
 ##############################################################################

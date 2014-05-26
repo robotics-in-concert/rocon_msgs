@@ -12,6 +12,7 @@ project(rocon_interaction_msgs)
 find_package(catkin REQUIRED COMPONENTS 
     message_generation 
     rocon_std_msgs
+    uuid_msgs
 )
 
 ##############################################################################
