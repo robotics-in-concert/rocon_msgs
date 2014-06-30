@@ -1,6 +1,9 @@
 # Name of the rapp to launch
 string name
 rocon_std_msgs/Remapping[] remappings
+
+# Key value pairs representing rapp parameters
+rocon_std_msgs/KeyValue[] parameters
 ---
 bool started
 

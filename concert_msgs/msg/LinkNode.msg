@@ -17,3 +17,6 @@ int8 max
 
 # Force matching of robot name (only really useful for demos)
 bool force_name_matching
+
+# public parameters for node
+rocon_std_msgs/KeyValue parameters

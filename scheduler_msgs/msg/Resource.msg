@@ -40,4 +40,4 @@ string uri
 # Remappings which get passed on for starting the rapps. Also potentially for
 # more esoteric use cases such as checking whether an app is sharable.
 rocon_std_msgs/Remapping[] remappings
-
+rocon_std_msgs/KeyValue[] parameters
