@@ -7,12 +7,12 @@ string description
 string compatibility
 string status
 
+# a list of implementations
+string[] implementations
+
 # icon for showing the app
 rocon_std_msgs/Icon icon
 
 # public interface and paameters
 rocon_std_msgs/KeyValue[] public_interface
 rocon_std_msgs/KeyValue[] public_parameters
-
-# list of capabilities required for this app to run
-string[] required_capabilities
