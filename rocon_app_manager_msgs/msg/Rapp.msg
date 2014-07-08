@@ -10,8 +10,8 @@ string status
 # a list of implementations
 string[] implementations
 
-# A selected rapp for virtual rapp
-string selected
+# A preferred rapp for virtual rapp
+string preferred
 
 # icon for showing the app
 rocon_std_msgs/Icon icon
