@@ -1,6 +1,11 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* Export architecture_independent flag in package.xml
+* Contributors: Scott K Logan
+
 0.7.1 (2014-04-09)
 ------------------
 * rocon_service -> concert_service

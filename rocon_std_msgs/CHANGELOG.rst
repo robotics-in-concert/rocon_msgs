@@ -1,6 +1,14 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* Export architecture_independent flag in package.xml
+* rocon_std_msgs: error: missing build_depend on 'genmsg'
+  rocon_std_msgs: error: unconfigured build_depend on 'message_generation'
+  rocon_std_msgs: error: unconfigured build_depend on 'uuid_msgs'
+* Contributors: Jihoon Lee, Scott K Logan
+
 0.7.1 (2014-04-09)
 ------------------
 * igloo -> indigo

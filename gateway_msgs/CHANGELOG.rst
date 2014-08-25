@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* Export architecture_independent flag in package.xml
+* gateway_msgs: error: unconfigured build_depend on 'message_generation
+* Contributors: Jihoon Lee, Scott K Logan
+
 0.7.0 (2014-03-29)
 ------------------
 * changes supporting connectivity and disconnection handling.

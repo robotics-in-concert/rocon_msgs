@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* Export architecture_independent flag in package.xml
+* fix a broken dependency on uuid_msgs.
+* rocon_interaction_msgs: error: unconfigured build_depend on 'uuid_msgs
+* Contributors: Daniel Stonier, Jihoon Lee, Scott K Logan
+
 0.7.4 (2014-05-05)
 ------------------
 * a pairing status message, `#92 <https://github.com/robotics-in-concert/rocon_msgs/issues/92>`_

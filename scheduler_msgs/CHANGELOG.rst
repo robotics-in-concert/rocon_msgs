@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* Export architecture_independent flag in package.xml
+* add public parameters in resource
+* run_depend 'message_runtime' is not listed in catkin_package()
+* Contributors: Jihoon Lee, Scott K Logan
+
 0.7.2 (2014-04-16)
 ------------------
 * extra status flag for resources that have cleanly left the concert.

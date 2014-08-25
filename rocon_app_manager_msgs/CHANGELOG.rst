@@ -1,6 +1,19 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* Merge pull request `#97 <https://github.com/robotics-in-concert/rocon_msgs/issues/97>`_ from robotics-in-concert/multiple_impl
+  add selected fieled to indicate which rapp virtual uses
+* rename as preferred
+* Merge pull request `#96 <https://github.com/robotics-in-concert/rocon_msgs/issues/96>`_ from robotics-in-concert/multiple_impl
+* remove required_capabilities and add implementations in rapp.msg
+* explanation for the rapp message.
+* Export architecture_independent flag in package.xml
+* add parameters in list rapp and start rapp
+* rocon_app_manager_msgs: error: unconfigured build_depend on 'rocon_service_pair_msg
+* Contributors: Daniel Stonier, Jihoon Lee, Scott K Logan
+
 0.7.4 (2014-05-05)
 ------------------
 * GetStatus removed in favour of a newly created Status latched publisher.
