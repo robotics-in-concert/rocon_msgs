@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.7.6 (2014-08-25)
+------------------
 * Export architecture_independent flag in package.xml
 * Contributors: Scott K Logan
 

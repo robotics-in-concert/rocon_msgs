@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.7.6 (2014-08-25)
+------------------
 * Export architecture_independent flag in package.xml
 * add public parameters in resource
 * Contributors: Jihoon Lee, Scott K Logan

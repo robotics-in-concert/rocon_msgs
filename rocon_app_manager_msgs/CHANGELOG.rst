@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.7.6 (2014-08-25)
+------------------
 * Merge pull request `#97 <https://github.com/robotics-in-concert/rocon_msgs/issues/97>`_ from robotics-in-concert/multiple_impl
   add selected fieled to indicate which rapp virtual uses
 * rename as preferred

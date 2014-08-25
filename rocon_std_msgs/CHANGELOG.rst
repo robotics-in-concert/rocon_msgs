@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.7.6 (2014-08-25)
+------------------
 * Export architecture_independent flag in package.xml
 * rocon_std_msgs: error: missing build_depend on 'genmsg'
   rocon_std_msgs: error: unconfigured build_depend on 'message_generation'
