@@ -10,6 +10,4 @@ bool release
 # Success or failure of the allocation
 bool result
 
-# topics for teleoperation. requesting resource and result is true
-string cmd_vel_topic
-string compressed_image_topic
+rocon_std_msgs/Remapping[] remappings

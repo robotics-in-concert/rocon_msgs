@@ -12,6 +12,7 @@ project(concert_service_msgs)
 find_package(catkin REQUIRED COMPONENTS 
     message_generation 
     rocon_service_pair_msgs
+    rocon_std_msgs
 )
 
 ##############################################################################
@@ -27,12 +28,12 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_pair_files(
   DIRECTORY pairs
   FILES
-  CaptureTeleop.pair
+  CaptureResource.pair
   KillTurtle.pair
   SpawnTurtle.pair
 )
 
-generate_messages(DEPENDENCIES rocon_service_pair_msgs)
+generate_messages(DEPENDENCIES rocon_std_msgs rocon_service_pair_msgs)
 
 ##############################################################################
 # Package
@@ -41,4 +42,5 @@ generate_messages(DEPENDENCIES rocon_service_pair_msgs)
 catkin_package(CATKIN_DEPENDS
   message_runtime
   rocon_service_pair_msgs
+  rocon_std_msgs
 )
