@@ -9,3 +9,5 @@ bool release
 ---
 # Success or failure of the allocation
 bool result
+
+rocon_std_msgs/Remapping[] remappings
