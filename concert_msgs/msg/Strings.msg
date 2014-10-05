@@ -15,3 +15,4 @@ string CONCERT_CLIENTS = /concert/conductor/concert_clients
 
 # Namespaces
 string SERVICE_NAMESPACE = /services
+string SOFTWARE_NAMESPACE = /software
