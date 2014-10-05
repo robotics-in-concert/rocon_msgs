@@ -1,4 +1,5 @@
 # Configurations
+string resource_name
 string name
 string description
 string author
