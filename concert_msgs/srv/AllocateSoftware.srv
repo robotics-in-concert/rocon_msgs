@@ -1,4 +1,5 @@
-string name
+string requester
+string software
 bool allocate
 ---
 bool success
