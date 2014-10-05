@@ -73,3 +73,4 @@ string OS_KITKAT=kitkat
 # Package exports used in concert_service_manager and rocon_app_utilities
 string TAG_SERVICE=concert_service
 string TAG_RAPP=rocon_app
+string TAG_SOFTWARE=software_farm
