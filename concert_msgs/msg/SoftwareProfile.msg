@@ -3,8 +3,7 @@ string resource_name
 string name
 string description
 string author
-string launcher_type
-string launcher
+string launch
 int16  max_count
 
 # Runtime
