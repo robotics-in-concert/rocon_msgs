@@ -1,4 +1,4 @@
-string requester
+string user 
 string software
 bool allocate
 ---
