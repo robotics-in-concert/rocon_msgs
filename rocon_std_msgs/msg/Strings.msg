@@ -66,6 +66,12 @@ string OS_HONEYCOMB=honeycomb
 string OS_ICE_CREAM_SANDWICH=ice_cream_sandwich
 string OS_JELLYBEAN=jellybean
 string OS_KITKAT=kitkat
+# Web
+string OS_CHROME=chrome
+string OS_FIREFOX=firefox
+string OS_INTERNET_EXPLORER=internet_explorer
+string OS_SAFARI=safari
+string OS_OPERA=opera
 
 
 ######################## Rocon Export Tags################################
