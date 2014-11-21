@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.7.8 (2014-11-21)
+------------------
 * strings for os
 * add gazebo robot type for export
 * Contributors: Jihoon Lee

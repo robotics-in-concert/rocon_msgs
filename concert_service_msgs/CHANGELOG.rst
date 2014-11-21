@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.7.8 (2014-11-21)
+------------------
 * replace captureteop with captureresource
 * returns topic names when it allocates resource
 * Contributors: Jihoon Lee
