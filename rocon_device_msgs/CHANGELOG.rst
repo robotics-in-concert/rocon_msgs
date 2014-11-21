@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* fixed make rule
+* create hue set color message
+* Contributors: dwlee
+
 0.7.6 (2014-08-25)
 ------------------
 * Export architecture_independent flag in package.xml

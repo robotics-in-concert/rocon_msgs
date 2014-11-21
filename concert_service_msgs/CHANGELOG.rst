@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* replace captureteop with captureresource
+* returns topic names when it allocates resource
+* Contributors: Jihoon Lee
+
 0.7.6 (2014-08-25)
 ------------------
 * Export architecture_independent flag in package.xml
