@@ -25,7 +25,7 @@ add_message_files(
   Hue.msg
   HueState.msg
   HueArray.msg
-  SetColor.msg)
+  )
 
 generate_messages(DEPENDENCIES ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 
