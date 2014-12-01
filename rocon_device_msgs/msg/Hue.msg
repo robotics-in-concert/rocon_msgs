@@ -4,4 +4,3 @@ string name
 string modelid
 string swvesion
 HueState state
-
