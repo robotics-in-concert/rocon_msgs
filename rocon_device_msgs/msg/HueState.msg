@@ -5,11 +5,9 @@ string RED = "RED"
 string GREEN = "GREEN"
 string BLUE = "BLUE"
 string YELLOW = "YELLOW"
-string CYNDER = "YELLOW"
 string ORANGE = "ORANGE"
 string PURPLE = "PURPLE"
 string VIOLET = "VIOLET"
-string CYAN = "CYAN"
 
 #light on/off status true:on /false:off
 bool on 
