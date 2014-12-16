@@ -6,7 +6,7 @@ string GREEN = "GREEN"
 string BLUE = "BLUE"
 string YELLOW = "YELLOW"
 string ORANGE = "ORANGE"
-string PURPLE = "PURPLE"
+string MAGENTA = "MAGENTA"
 string VIOLET = "VIOLET"
 
 #light on/off status true:on /false:off
