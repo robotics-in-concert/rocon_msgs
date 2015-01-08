@@ -12,11 +12,9 @@ uint16                      priority
 rocon_std_msgs/Icon         icon
 string                      launcher_type
 string                      launcher
-string                      launcher_data
 string                      interactions
-string                      interactions_data
 string                      parameters
-string                      parameters_data
+rocon_std_msgs/KeyValue[]     parameters_detail
 
 # Initialised parameters (on startup)
 uuid_msgs/UniqueID          uuid

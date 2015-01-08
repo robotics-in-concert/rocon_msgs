@@ -43,6 +43,7 @@ add_service_files(
   DIRECTORY srv
   FILES
   EnableService.srv
+  UpdateServiceConfig.srv
 )
 
 generate_messages(DEPENDENCIES
