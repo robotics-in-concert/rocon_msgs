@@ -1,1 +1,1 @@
-SoftwareProfiles[] software
+SoftwareProfile[] software

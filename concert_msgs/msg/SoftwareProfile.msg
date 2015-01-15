@@ -9,4 +9,3 @@ int16  max_count
 # Runtime
 bool  enabled
 int16 counts
-string namespace

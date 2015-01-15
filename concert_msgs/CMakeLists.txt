@@ -36,6 +36,8 @@ add_message_files(
   LinkNode.msg
   ServiceProfile.msg
   Services.msg
+  SoftwareProfile.msg
+  Softwares.msg
   Strings.msg
 )
 
@@ -43,6 +45,7 @@ add_service_files(
   DIRECTORY srv
   FILES
   EnableService.srv
+  AllocateSoftware.srv
 )
 
 generate_messages(DEPENDENCIES
