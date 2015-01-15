@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.7.8 (2014-11-21)
+------------------
+* new error code for stopping a rapp that is not listed.
+* Contributors: Daniel Stonier
+
 0.7.6 (2014-08-25)
 ------------------
 * Merge pull request `#97 <https://github.com/robotics-in-concert/rocon_msgs/issues/97>`_ from robotics-in-concert/multiple_impl

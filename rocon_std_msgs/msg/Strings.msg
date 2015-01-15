@@ -66,11 +66,17 @@ string OS_HONEYCOMB=honeycomb
 string OS_ICE_CREAM_SANDWICH=ice_cream_sandwich
 string OS_JELLYBEAN=jellybean
 string OS_KITKAT=kitkat
-
+# Web
+string OS_CHROME=chrome
+string OS_FIREFOX=firefox
+string OS_INTERNET_EXPLORER=internet_explorer
+string OS_SAFARI=safari
+string OS_OPERA=opera
 
 ######################## Rocon Export Tags################################
 
 # Package exports used in concert_service_manager and rocon_app_utilities
 string TAG_SERVICE=concert_service
 string TAG_RAPP=rocon_app
+string TAG_GAZEBO_ROBOT_TYPE=concert_gazebo
 string TAG_SOFTWARE=software_farm
