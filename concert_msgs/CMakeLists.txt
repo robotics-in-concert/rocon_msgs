@@ -37,7 +37,9 @@ add_message_files(
   ServiceProfile.msg
   Services.msg
   SoftwareProfile.msg
-  Softwares.msg
+  SoftwareProfiles.msg
+  SoftwareInstance.msg
+  SoftwareInstances.msg
   Strings.msg
 )
 
