@@ -14,6 +14,7 @@ string                      launcher_type
 string                      launcher
 string                      interactions
 string                      parameters
+rocon_std_msgs/KeyValue[]   parameters_detail
 
 # Initialised parameters (on startup)
 uuid_msgs/UniqueID          uuid

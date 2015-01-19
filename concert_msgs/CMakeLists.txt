@@ -47,6 +47,7 @@ add_service_files(
   DIRECTORY srv
   FILES
   EnableService.srv
+  UpdateServiceConfig.srv
   AllocateSoftware.srv
 )
 
