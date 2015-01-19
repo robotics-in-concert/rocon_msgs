@@ -73,10 +73,10 @@ string OS_INTERNET_EXPLORER=internet_explorer
 string OS_SAFARI=safari
 string OS_OPERA=opera
 
-
 ######################## Rocon Export Tags################################
 
 # Package exports used in concert_service_manager and rocon_app_utilities
 string TAG_SERVICE=concert_service
 string TAG_RAPP=rocon_app
 string TAG_GAZEBO_ROBOT_TYPE=concert_gazebo
+string TAG_SOFTWARE=software_farm
