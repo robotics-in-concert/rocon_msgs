@@ -1,0 +1,7 @@
+string user 
+string software
+bool allocate
+---
+bool success
+string namespace # if success
+string error_message # if fails
