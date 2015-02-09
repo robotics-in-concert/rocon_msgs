@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* merge indigo
+* add softwre farm tag
+* Contributors: Jihoon Lee
+
 0.7.8 (2014-11-21)
 ------------------
 * strings for os

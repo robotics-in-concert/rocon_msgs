@@ -1,6 +1,28 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* remove enabled field closes `#107 <https://github.com/robotics-in-concert/rocon_msgs/issues/107>`_
+* merge from indigo branch
+* fix indent
+* separate profile message and instance message. they are carrying different info
+* updates
+* delete unused property and type and name change of parameter_detail
+  create update service config service msg and fix profile msg type
+  fix type
+* add real data field regarding parameter, interaction, launch
+* rename requester to user
+* add requester
+* add software list msg
+* add allocate software srv
+* add software namespace
+* remove launcher type
+* add resource name
+* replace interface with namespace
+* add software profile
+* Contributors: Jihoon Lee, dwlee
+
 0.7.8 (2014-11-21)
 ------------------
 

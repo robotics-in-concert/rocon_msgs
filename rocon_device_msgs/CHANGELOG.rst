@@ -1,6 +1,14 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* change hue color name
+* delete unused pre-defined color
+* update cmake `#101 <https://github.com/robotics-in-concert/rocon_msgs/issues/101>`_
+* clean up message as modification of rocon hue
+* Contributors: Jihoon Lee, dwlee
+
 0.7.8 (2014-11-21)
 ------------------
 * fixed make rule
