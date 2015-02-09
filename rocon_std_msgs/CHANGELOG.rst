@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.7.9 (2015-02-09)
+------------------
 * merge indigo
 * add softwre farm tag
 * Contributors: Jihoon Lee

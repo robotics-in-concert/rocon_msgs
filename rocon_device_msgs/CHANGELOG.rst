@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.7.9 (2015-02-09)
+------------------
 * change hue color name
 * delete unused pre-defined color
 * update cmake `#101 <https://github.com/robotics-in-concert/rocon_msgs/issues/101>`_
