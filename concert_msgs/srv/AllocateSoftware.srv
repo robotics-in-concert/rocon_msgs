@@ -1,6 +1,7 @@
 string user 
 string software
 bool allocate
+rocon_std_msgs/KeyValue[] parameters
 ---
 bool success
 string namespace # if success
