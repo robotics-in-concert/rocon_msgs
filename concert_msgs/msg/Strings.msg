@@ -6,6 +6,7 @@
 
 # Parameters
 string PARAM_ROCON_SCREEN = /rocon/screen
+string PARAM_CONCERT_SHARED_PARAM_NAMESPACE = /concert/shared_param_namespace
 
 # Scheduler
 string SCHEDULER_UNALLOCATED_RESOURCE = unallocated
