@@ -1,0 +1,2 @@
+string service_name
+string status
