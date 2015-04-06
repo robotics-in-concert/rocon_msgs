@@ -1,6 +1,11 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* to support param in software https://github.com/robotics-in-concert/rocon_concert/issues/279
+* Contributors: Jihoon Lee
+
 0.7.9 (2015-02-09)
 ------------------
 * remove enabled field closes `#107 <https://github.com/robotics-in-concert/rocon_msgs/issues/107>`_
