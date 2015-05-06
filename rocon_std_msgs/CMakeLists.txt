@@ -22,6 +22,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
+  Connection.msg
   Icon.msg
   KeyValue.msg
   MasterInfo.msg
