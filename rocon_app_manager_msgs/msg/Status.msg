@@ -13,3 +13,7 @@ string rapp_status
 
 # Current app details (if running), a default Rapp() (filled with empty strings and lists) otherwise
 Rapp rapp
+
+# The runtime, possibly namespaced and remapped interfaces/parameters
+PublishedInterface[] published_interfaces
+rocon_std_msgs/KeyValue[] published_parameters

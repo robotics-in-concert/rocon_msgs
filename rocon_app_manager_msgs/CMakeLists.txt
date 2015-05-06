@@ -27,6 +27,8 @@ add_message_files(
   Constants.msg
   ErrorCodes.msg
   IncompatibleRappList.msg
+  PublicInterface.msg
+  PublishedInterface.msg
   Status.msg
 )
 
