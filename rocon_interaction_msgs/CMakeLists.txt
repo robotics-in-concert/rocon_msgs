@@ -9,8 +9,8 @@ project(rocon_interaction_msgs)
 # Dependencies
 ##############################################################################
 
-find_package(catkin REQUIRED COMPONENTS 
-    message_generation 
+find_package(catkin REQUIRED COMPONENTS
+    message_generation
     rocon_std_msgs
     uuid_msgs
 )
@@ -29,6 +29,7 @@ add_message_files(
   Pair.msg
   Pairing.msg
   RemoconStatus.msg
+  Requirement.msg
   Strings.msg
 )
 
