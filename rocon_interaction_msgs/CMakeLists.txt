@@ -24,6 +24,7 @@ add_message_files(
   FILES
   ErrorCodes.msg
   Interaction.msg
+  InteractionsUpdate.msg
   InteractiveClient.msg
   InteractiveClients.msg
   Pair.msg
