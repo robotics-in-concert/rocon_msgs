@@ -2,8 +2,8 @@
 Changelog for package concert_workflow_engine_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.7.11 (2015-05-27)
+-------------------
 * add ready status
 * re define workflow status message included pre-defined status
 * change status type and add pre define about status

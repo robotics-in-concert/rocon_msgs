@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.7.11 (2015-05-27)
+-------------------
 * [rocon_app_manager_msgs] published interface types.
 * Contributors: Daniel Stonier
 
