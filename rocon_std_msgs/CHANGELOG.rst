@@ -1,6 +1,11 @@
 Changelog
 =========
 
+Forthcoming
+-----------
+* connections.
+* Contributors: Daniel Stonier
+
 0.7.10 (2015-04-06)
 -------------------
 
