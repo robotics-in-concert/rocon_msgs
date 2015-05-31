@@ -23,6 +23,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   Connection.msg
+  Float32Stamped.msg
   Icon.msg
   KeyValue.msg
   MasterInfo.msg
