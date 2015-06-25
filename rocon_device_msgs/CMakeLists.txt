@@ -10,7 +10,9 @@ project(rocon_device_msgs)
 ##############################################################################
 
 set(${PROJECT_NAME}_MSG_DEPENDENCIES
-    std_msgs)
+    std_msgs
+    rocon_std_msgs
+)
 
 find_package(catkin REQUIRED
   COMPONENTS message_generation ${${PROJECT_NAME}_MSG_DEPENDENCIES})
@@ -25,6 +27,8 @@ add_message_files(
   Hue.msg
   HueState.msg
   HueArray.msg
+  Device.msg
+  Devices.msg
   )
 
 generate_messages(DEPENDENCIES ${${PROJECT_NAME}_MSG_DEPENDENCIES})
