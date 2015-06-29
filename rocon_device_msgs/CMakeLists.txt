@@ -31,6 +31,12 @@ add_message_files(
   Devices.msg
   )
 
+add_service_files(
+  DIRECTORY srv
+  FILES
+  GetDeviceList.srv
+  )
+
 generate_messages(DEPENDENCIES ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 
 ##############################################################################
