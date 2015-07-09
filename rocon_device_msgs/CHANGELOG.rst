@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.7.12 (2015-07-09)
+-------------------
 * rename name to label
 * add srv and device info
 * add devices messages
