@@ -2,6 +2,9 @@
 Changelog for package concert_workflow_engine_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.7.11 (2015-05-27)
 -------------------
 * add ready status
