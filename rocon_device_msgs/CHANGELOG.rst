@@ -1,6 +1,16 @@
 Changelog
 =========
 
+0.7.12 (2015-07-09)
+-------------------
+* rename name to label
+* add srv and device info
+* add devices messages
+* Contributors: Jihoon Lee
+
+0.7.11 (2015-05-27)
+-------------------
+
 0.7.10 (2015-04-06)
 -------------------
 
