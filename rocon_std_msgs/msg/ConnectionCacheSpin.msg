@@ -1,0 +1,1 @@
+float32 spin_freq

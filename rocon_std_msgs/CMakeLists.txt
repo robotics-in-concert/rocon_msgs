@@ -23,6 +23,9 @@ add_message_files(
   DIRECTORY msg
   FILES
   Connection.msg
+  ConnectionCacheSpin.msg
+  ConnectionsDiff.msg
+  ConnectionsList.msg
   Float32Stamped.msg
   Icon.msg
   KeyValue.msg
