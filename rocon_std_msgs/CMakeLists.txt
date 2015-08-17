@@ -30,17 +30,16 @@ add_message_files(
   Icon.msg
   KeyValue.msg
   MasterInfo.msg
-  PlatformInfo.msg
   StringArray.msg
   Strings.msg
   Remapping.msg
 )
 
-add_service_files(
-  DIRECTORY srv
-  FILES
-  GetPlatformInfo.srv
-)
+#add_service_files(
+#  DIRECTORY srv
+#  FILES
+#  GetPlatformInfo.srv
+#)
 
 add_service_pair_files(
   DIRECTORY pairs
