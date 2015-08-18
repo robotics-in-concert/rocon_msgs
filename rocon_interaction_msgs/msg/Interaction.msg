@@ -22,7 +22,7 @@ string compatibility
 # differently from the name for either 1) branding, or 2) because
 # some names are complicated visually (e.g. android names).
 string display_name
- 
+
 # Should be a default for the interaction, but sometimes useful to
 # override it to provide more human friendly information.
 string description
@@ -47,6 +47,9 @@ string parameters
 # Maximum number of permitted connections (-1 = any)
 int32 UNLIMITED_INTERACTIONS = -1
 int32 max
+
+#listing requirements for this interaction
+Requirement required
 
 # The configuration for a pairing if this interaction is to be paired
 # with a rapp. If not, it should be left unfilled.

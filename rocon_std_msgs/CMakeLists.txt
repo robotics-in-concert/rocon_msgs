@@ -23,20 +23,23 @@ add_message_files(
   DIRECTORY msg
   FILES
   Connection.msg
+  ConnectionCacheSpin.msg
+  ConnectionsDiff.msg
+  ConnectionsList.msg
+  Float32Stamped.msg
   Icon.msg
   KeyValue.msg
   MasterInfo.msg
-  PlatformInfo.msg
   StringArray.msg
   Strings.msg
   Remapping.msg
 )
 
-add_service_files(
-  DIRECTORY srv
-  FILES
-  GetPlatformInfo.srv
-)
+#add_service_files(
+#  DIRECTORY srv
+#  FILES
+#  GetPlatformInfo.srv
+#)
 
 add_service_pair_files(
   DIRECTORY pairs

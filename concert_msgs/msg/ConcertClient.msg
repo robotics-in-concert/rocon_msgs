@@ -6,7 +6,7 @@ string name
 string gateway_name
 
 # Platform information about the concert client.
-rocon_std_msgs/PlatformInfo platform_info
+rocon_std_msgs/MasterInfo platform_info
 
 # Is on the same machine ip as the conductor
 bool is_local_client

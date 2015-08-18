@@ -1,17 +1,7 @@
-# Publish basic information about the concert.
-#
-# Fixed variables
-#   version
-# Over-ridable variables:
-#   name
-#   description
-#   icon
-# Runtime variables:
-#   id
-#
+# Publish basic information about this master.
 
 string name
-#uuid_msgs/UniqueID id
+string rocon_uri
 string description
 rocon_std_msgs/Icon icon
 string version

@@ -9,11 +9,6 @@
 # listening, this topic is lazy.  
 #
 concert_msgs/ConcertClient[] pending
-concert_msgs/ConcertClient[] bad
-concert_msgs/ConcertClient[] blocking
-concert_msgs/ConcertClient[] busy
-concert_msgs/ConcertClient[] uninvited
-concert_msgs/ConcertClient[] joining
 concert_msgs/ConcertClient[] available
 concert_msgs/ConcertClient[] missing
 concert_msgs/ConcertClient[] gone

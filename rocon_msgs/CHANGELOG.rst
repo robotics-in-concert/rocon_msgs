@@ -1,23 +1,12 @@
 Changelog
 =========
 
-0.7.12 (2015-07-09)
--------------------
-
-0.7.11 (2015-05-27)
--------------------
-
-0.7.10 (2015-04-06)
--------------------
-
-0.7.9 (2015-02-09)
+0.8.0 (2015-08-18)
 ------------------
-
-0.7.8 (2014-11-21)
-------------------
-
-0.7.6 (2014-08-25)
-------------------
+* rocon now developing for the gophers
+* several conductor states deprecated, messages updated to match
+* platform info collapsed into master info
+* connection cache node message support
 
 0.7.5 (2014-05-05)
 ------------------
