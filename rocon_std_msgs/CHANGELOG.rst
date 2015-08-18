@@ -1,13 +1,14 @@
 Changelog
 =========
 
-0.7.12 (2015-07-09)
--------------------
+0.8.0 (2015-08-18)
+------------------
+* collapse platform info into master info
+* connection cache messages
 
 0.7.11 (2015-05-27)
 -------------------
-* connections.
-* Contributors: Daniel Stonier
+* connections
 
 0.7.10 (2015-04-06)
 -------------------
