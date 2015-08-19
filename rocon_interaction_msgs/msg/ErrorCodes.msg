@@ -10,8 +10,8 @@ int8 INTERACTION_QUOTA_REACHED = 21  # Maximum number or role-app connections al
 int8 START_PAIRED_RAPP_FAILED = 31   # If a paired rapp fails to start.
 int8 ALREADY_PAIRING          = 32   # If trying to start a pairing, but already pairing
 
-string MSG_INTERACTION_UNAVAILABLE   = "This role-app pair is not available for use."
-string MSG_INTERACTION_QUOTA_REACHED = "More connections of this type not permitted."
-string MSG_INTERACTION_REQUIREMENT_FAILED   = "The requirement for this role-app pair is not satified."
-string MSG_START_PAIRED_RAPP_FAILED  = "Failed to start the paired rapp."
-string MSG_ALREADY_PAIRING           = "Already pairing, cannot start another pairing."
+string MSG_INTERACTION_UNAVAILABLE                  = "This role-app pair is not available for use."
+string MSG_INTERACTION_QUOTA_REACHED                = "More connections of this type not permitted."
+string MSG_INTERACTION_RUNTIME_REQUIREMENTS_FAILED  = "The requirement for this role-app pair is not satified."
+string MSG_START_PAIRED_RAPP_FAILED                 = "Failed to start the paired rapp."
+string MSG_ALREADY_PAIRING                          = "Already pairing, cannot start another pairing."
