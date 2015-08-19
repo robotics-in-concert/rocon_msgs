@@ -1,7 +1,7 @@
 # Used by the remocons to inform the concert of it's current status. They should
 # publish this as a latched publisher.
 
-rocon_std_msgs/MasterInfo master_info
+rocon_std_msgs/MasterInfo platform_info
 # The remocon id
 # This should be a '32 character Type 4 uuid hex string'
 string uuid
