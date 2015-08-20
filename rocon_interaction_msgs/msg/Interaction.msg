@@ -48,9 +48,6 @@ string parameters
 int32 UNLIMITED_INTERACTIONS = -1
 int32 max
 
-#listing requirements for this interaction
-Requirement required
-
 # The configuration for a pairing if this interaction is to be paired
 # with a rapp. If not, it should be left unfilled.
 Pairing pairing

@@ -7,7 +7,7 @@
 string name
 uuid_msgs/UniqueID id
 
-rocon_std_msgs/MasterInfo master_info
+rocon_std_msgs/MasterInfo platform_info
 
 # easy to read display names of interactions running on this remocon
 string[] running_interactions
