@@ -27,6 +27,7 @@ add_message_files(
   InteractiveClient.msg
   InteractiveClients.msg
   Pairing.msg
+  PairingStatus.msg
   RemoconStatus.msg
   Strings.msg
 )
