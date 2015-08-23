@@ -2,8 +2,8 @@
 # appropriate to the role and platform they will run for/on.
 
 
-# Filter according to roles. Disabled if the list is empty.
-string[] roles
+# Filter according to groups. Disabled if the list is empty.
+string[] groups
 
 # Filter according to the rocon uri of the requesting device.
 # Disabled if empty string (i.e. assumes a 'rocon:/' filter).

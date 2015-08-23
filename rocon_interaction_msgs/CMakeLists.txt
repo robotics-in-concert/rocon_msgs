@@ -36,6 +36,7 @@ add_service_files(
   FILES
   GetInteraction.srv
   GetInteractions.srv
+  GetPairings.srv
   RequestInteraction.srv
   SetInteractions.srv
   GetRoles.srv
