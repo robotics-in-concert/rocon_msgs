@@ -39,8 +39,8 @@ add_service_files(
   GetInteractions.srv
   GetPairings.srv
   RequestInteraction.srv
-  SetInteractions.srv
-  GetRoles.srv
+  StartPairing.srv
+  StopPairing.srv
 )
 
 generate_messages(DEPENDENCIES rocon_std_msgs)
