@@ -39,6 +39,7 @@ add_service_files(
   GetInteractions.srv
   GetPairings.srv
   RequestInteraction.srv
+  SetInteractions.srv
   StartPairing.srv
   StopPairing.srv
 )
