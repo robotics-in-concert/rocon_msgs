@@ -35,11 +35,11 @@ add_message_files(
   Remapping.msg
 )
 
-#add_service_files(
-#  DIRECTORY srv
-#  FILES
-#  GetPlatformInfo.srv
-#)
+add_service_files(
+  DIRECTORY srv
+  FILES
+  EmptyString.srv
+)
 
 add_service_pair_files(
   DIRECTORY pairs
