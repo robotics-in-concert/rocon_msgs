@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.8.1 (2015-10-10)
+------------------
+* a useful empty string service
+
 0.8.0 (2015-08-18)
 ------------------
 * collapse platform info into master info
