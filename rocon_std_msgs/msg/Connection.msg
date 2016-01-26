@@ -16,6 +16,9 @@ string name
 string node
 
 # topic, service or action type, e.g. std_msgs/String
+string type_msg
+
+# topic, service or action extra type info ( uri for service )
 string type_info
 
 # xmlrpc node uri for managing the connection
