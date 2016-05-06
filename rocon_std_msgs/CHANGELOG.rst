@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.9.0 (2016-05-06)
+------------------
+* adding type field (e.g. std_msgs/String) to the connection message
+
 0.8.1 (2015-10-10)
 ------------------
 * a useful empty string service
