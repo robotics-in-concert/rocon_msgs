@@ -18,6 +18,11 @@ string rapp
 # override it to provide more human friendly information.
 string description
 
+# Whether or not users are permitted to start this rapp without
+# a remote interaction. The default value will always be set to false
+# if not specified (e.g. when loading data from yaml).
+bool requires_interaction
+
 # Again, can load the default rapp icon, but may want to override it.
 rocon_std_msgs/Icon icon
 
