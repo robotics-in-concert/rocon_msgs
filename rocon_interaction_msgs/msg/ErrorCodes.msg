@@ -14,6 +14,8 @@ int8 REQUIRED_RAPP_IS_NOT_RUNNING = 33
 int8 DIFFERENT_RAPP_IS_RUNNING    = 34
 int8 NOT_PAIRING                  = 35
 int8 STOP_PAIRING_FAILED          = 36
+int8 REQUIRED_INTERACTION_IS_NOT_AVAILABLE = 37
+int8 REQUIRED_INTERACTION_FAILED  = 38
 
 string MSG_INTERACTION_UNAVAILABLE                  = "This interaction is not available for use."
 string MSG_PAIRING_UNAVAILABLE                      = "The specified pairing does not exist."
@@ -22,5 +24,7 @@ string MSG_REQUIRED_RAPP_IS_NOT_RUNNING             = "No rapp is running and th
 string MSG_DIFFERENT_RAPP_IS_RUNNING                = "A different rapp to that required is already running."
 string MSG_START_PAIRING_FAILED                     = "Failed to start the pairing (rapp)."
 string MSG_STOP_PAIRING_FAILED                      = "Failed to stop a pairing (rapp)"
+string MSG_REQUIRED_INTERACTION_IS_NOT_AVAILABLE    = "The required interaction is not available."
+string MSG_REQUIRED_INTERACTION_FAILED              = "The required interaction failed to start."
 string MSG_ALREADY_PAIRING                          = "Already pairing, cannot start another pairing."
 string MSG_NOT_PAIRING                              = "This interaction manager is not managing paired interactions."

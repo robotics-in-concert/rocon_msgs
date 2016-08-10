@@ -7,6 +7,9 @@
 # name alone is not enough to uniquely identify the pairing
 string name
 
+# Group to which this pairing belongs
+string group
+
 # ros resource name of the rapp, e.g. rocon_apps/talker
 string rapp
 
@@ -18,10 +21,10 @@ string rapp
 # override it to provide more human friendly information.
 string description
 
-# Whether or not users are permitted to start this rapp without
-# a remote interaction. The default value will always be set to false
-# if not specified (e.g. when loading data from yaml).
-bool requires_interaction
+# Whether or not this rapp should bringup/teardown an interaction
+# with the launching of this rapp. If empty, no interaction is
+# required, if non-empty, look for the specified interaction.
+string requires_interaction
 
 # Again, can load the default rapp icon, but may want to override it.
 rocon_std_msgs/Icon icon

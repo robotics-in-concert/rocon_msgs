@@ -57,6 +57,9 @@ bool bringup_pairing
 bool teardown_pairing
 string[] required_pairings
 
+# whether it should be a hidden icon in a remocon
+bool hidden
+
 ###############################################################
 # Parameters finalised by the interactions manager
 ###############################################################
