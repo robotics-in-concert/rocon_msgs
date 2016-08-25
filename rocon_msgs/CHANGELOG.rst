@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.9.1 (2016-08-25)
+------------------
+* interactions : rapps get a requires_interaction flag
+
 0.8.0 (2015-08-18)
 ------------------
 * rocon now developing for the gophers
