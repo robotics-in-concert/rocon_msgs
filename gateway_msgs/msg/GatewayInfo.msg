@@ -2,6 +2,8 @@
 
 # Gateway parameters
 string name
+bool zeroconf_services_available
+string[] direct_hub_uris
 bool connected
 string ip
 
