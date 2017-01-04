@@ -2,6 +2,8 @@
 
 # Gateway parameters
 string name
+bool discover_hubs_by_zeroconf 
+string[] discover_hubs_by_uri
 bool connected
 string ip
 
